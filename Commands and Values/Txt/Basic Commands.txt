@@ -1,0 +1,14 @@
+--scale= auto
+--antialias= SSAA4x, MSAA4x
+--softgpu
+--texdump
+--texreplace
+--texrecent
+--state-restore
+--wait
+--mcd0
+--mcd1
+--bios
+--libcrypt										Libcrypt value is invalid (%04x). Must have eight 1 bits
+--image
+--region
