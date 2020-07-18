@@ -1,14 +1,15 @@
---scale= auto
+--scale= auto;1;2;4                             x1=1280x720, x2=1920x1080, x4=3840x2160
 --antialias= SSAA4x, MSAA4x
 --softgpu
 --texdump
 --texreplace
---texrecent
+--texrecent= true;false
 --state-restore
 --wait
 --mcd0
 --mcd1
 --bios
---libcrypt										Libcrypt value is invalid (%04x). Must have eight 1 bits
+--libcrypt										                 Libcrypt value is invalid (%04x). Must have eight 1 bits
 --image
---region
+--region= SCEA;SCEE;SCEI                       (US: SCEA, Europe: SCEE, Japan: SCEI)
+--configpath
