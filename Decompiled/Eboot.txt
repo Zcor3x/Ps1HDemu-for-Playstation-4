@@ -1,0 +1,1244 @@
+ERROR: (DynamicAllocator) .Please increase dynamicallocator alignment to %08x.
+sceKernelAllocateDirectMemory failed: 0x%08X..
+sceKernelMapDirectMemory failed: 0x%08X..
+sceKernelMunmap failed: 0x%08X..
+sceKernelReleaseDirectMemory failed: 0x%08X..
+ERROR: (LinearAllocator) .
+ERROR: (AudioCDWave) .%s is not a directory.
+.wav.
+File %s is not a RIFF WAVE file.(RiffReaderRaw) .
+End of RIFF.(AudioCDWave) .
+Weird SoundForge(?) WAV detected (0xFE02).
+formatTag = %d: unknown, can't read file '%s'.%s: %d kHz, %d channels, %d blockalign, bytesPerSec=%d.
+Only 16-bit samples are supported.
+Only 44100Hz samples are supported.
+Unsupported number of channels: %d (only 2 supported).
+(HLEsceSasCore) .
+No data chunk found.
+AudioCD.
+currentTrack_.
+peakLevels_.
+sampleOffset_.
+EXROMCHECK.
+CACHE_CTRL.
+RAM_SIZE.
+COM_DELAY.
+EXP2_DELAY.
+CDROM_DELAY.
+SPU_DELAY.
+BIOS_DELAY.
+EXP3_DELAY.
+EXP1_DELAY.
+EXP2_BASE.
+EXP1_BASE.
+IMASK.
+ISTAT.(BaseIO) .Cache Control Read.BASEIO.Require (mem != (T)-1) .
+Failed to allocate %d bytes (top=%d).WARNING: (MEMORY) .
+Could not locate block to deallocate with address %08x.(ControllerManager) .
+Max supported players is 4. Please increase limit.
+CNTR2_COUNT.
+CNTR2_CTRL.
+CNTR2_TARGET.
+CNTR2_INVALID.
+CNTR3_COUNT.
+CNTR3_CTRL.
+CNTR3_TARGET.
+CNTR3_INVALID.
+CNTR0_COUNT.
+CNTR0_CTRL.
+CNTR0_TARGET.
+CNTR0_INVALID.
+CNTR1_COUNT.
+CNTR1_CTRL.
+CNTR1_TARGET.
+CNTR1_INVALID.
+(Counters) .
+Unknown read: %08x.counters_.CPU.hi_.lo_.pc_.clock_.cop0_.
+io%-5s%-2d(%08x): Unhandled!.
+store.
+Require (size <= PS1_BIOSSIZE) .
+BIOS Image too large.
+WARNING: (cpu) .Block Cache Mismatch @ PC=%08x.
+C:\Users\ernesto\Source\Repos\ps1hd\CPU.cpp(1815) : Assertion Failed (false).run.
+C:\Users\ernesto\Source\Repos\ps1hd\CPU.cpp(1843) : Assertion Failed (false).(STDOUT) .
+(CPU) .
+Division by zero at PC: %08x.ERROR: (CPU) .
+Invalid OP replace @ pc=%08x: Expected 0x%08x, Found 0x%08x.
+Script hook verification failure @ pc=%08x: Expected 0x%08x, Found 0x%08x.
+RemoveHook(pc=%08x) existing hook does not belong to this script..  > Owner='%s'.nullptr.
+ERROR: (MIPS) .
+Invalid OP replace at PC: 0x%08x. Expected 0x%08x, Found 0x%08x.WARNING: (MIPS) .
+Invalid hook installed on a delay slot at PC: 0x%08x.
+Invalid AOT installed on a delay slot at PC: 0x%08x.
+Script hook overlaps AOT  @ pc=%08x: AOT range=%08x->%08x.
+AOT block @ pc=%08x: DISABLED.
+Insn replace overlaps AOT @ pc=%08x: AOT range=%08x->%08x.
+D0_MADR.
+D0_BCR.
+D0_CHCR.
+D0_INVALID.
+D1_MADR.
+D1_BCR.
+D1_CHCR.
+D2_MADR.
+D2_BCR.
+D2_CHCR.
+D3_MADR.
+D3_BCR.
+D3_CHCR.
+D4_MADR.
+D4_BCR.
+D4_CHCR.
+D5_MADR.
+D5_BCR.
+D5_CHCR.
+D6_MADR.
+D6_BCR.
+D6_CHCR.
+DPCR.
+DICR.
+D_UNK1.
+D_UNK2.
+(DMA) .
+Detected invalid command size (base dl addr: 0x%08x, chain dl addr: 0x%08x, cmd addr:0x%08x, frame: %u), skippnig chunk.
+Unhandled DMA channel %d.
+ERROR: (DMA) .
+Invalid write to %08x data=%08x.
+WARNING: (DMA) .
+Starting DMA channel %d, when a transfer is already ongoing!.
+Invalid write to channel %d reg %d.Unknown read from channel %d reg %d.
+DMA.channels_.
+CDROM_DATA.
+CDROM_IRQ.
+CDROM_STAT.
+CDROM_RESP.
+WARNING: (CDRom) .
+Want irq on command start, not implemented yet.
+Write to port %d:%d unsupported (%02x).
+SCEA.R
+equire (region.length() == 4) .
+CDRom: Invalid --region option.
+WARNING: (CDDA) .
+Failed to read samples from track %d, sample offset %d.
+WARNING: (CDROM) .
+Read progressed past the end of the disc..
+Require (resampleSamples < sizeof(resampleBuffer)) .
+resample buffer too small.
+CDRom: Unknown controller state %d.
+Require (outputOffset <= outputWordCount) .
+bad word count in XA resampler (offset=%d, wc=%d.
+Delaying read until cache is partially filled.
+Delaying read until cache is full.
+(CDRom) .
+This game is asking for CDDA reports.
+This game is attempting to read a LibCrypt key.
+Require (firstTrack != 0 && lastTrack != 0) .
+Invalid tracks on 
+TOC.
+CDROM.
+controller_.
+parameters_.
+response_.
+audiobuf_.
+buffer_.
+zip.
+Require (fs::exists(zip)) .
+Could not find image at path: %s.
+CDRom: could not cache image.
+Require (sceKernelRead(fd, cache_, partial_chunk) == partial_chunk) .
+(async-image-reader) Partial cache read completed..
+Require (sceKernelRead(fd, cache_ + partial_chunk, readsize) == readsize) .
+(async-image-reader) Full cache read completed..
+Require (fopen_s(&fp_, path, "rb") == 0) .
+Could not open %s for reading.
+--image.
+Require (emu->getSetting("--image", path_setting)) .
+Image path not specified.TOC.Require (fopen_s(&tocFile, toc, "rb") == 0) .
+Require (fread(toc_.data(), sizeof(track), tocEntries, tocFile) == tocEntries) .
+Invalid or corrupt TOC on file %s.Require (res >= 0) .
+Could not allocate CDRom cache.
+Require (cache_ != nullptr) .
+cdrom_cache_ready.
+cdrom_image_cache.
+audio.
+Require (cdda_->trackCount(cdda) == true) .
+Could not initialize CDDA tracks.
+--libcrypt.ERROR: (CDRom) .
+Libcrypt value is invalid (%04x). 
+Must have eight 1 bits.(DS4Controller) .
+Could not set vibration.
+Could not set lightbar.
+WARNING: (DS4Controller) .
+Could not initialize DS4 library.
+ERROR: (DS4Controller) .
+Invalid player parameter %d.
+Could not open connection to DS4 for player %d.
+(*no name).
+stack traceback:.......Slnt...%s:.%d:. in .
+function '%s'.%s '%s'.
+main chunk.
+function <%s:%d>...(...tail calls...).f._G..Sl.%s:%d: .
+stack overflow (%s).
+bad argument #%d (%s).
+calling '%s' on bad self (%s).
+bad argument #%d to '%s' (%s).%s: %s.
+light userdata.
+%s expected, got %s.
+invalid option '%s'.
+number has no integer representation.
+buffer too large.
+LUABOX.
+not enough memory for buffer allocation.
+=stdin.
+@%s.
+cannot %s %s: %s.
+reopen.
+object length is not an integer.
+%I.%f.%s: %p.
+too many upvalues.
+PANIC: unprotected error in call to Lua API (%s)..
+multiple Lua VMs detected.
+Lua 5.3._VERSION.
+assert.
+collectgarbage.
+dofile.
+error.
+ipairs.
+loadfile.
+load.
+next.
+pairs.
+pcall.
+print.
+rawequal.
+rawlen.
+rawget.
+rawset.
+select.
+tonumber.
+tostring.
+xpcall.
+base out of range. ......
+__metatable.
+cannot change a protected metatable.
+index out of range.
+table or string expected.
+'tostring' must return a string to 'print'.
+__pairs.
+bt.
+=(load).
+too many nested functions.
+reader function must return a string.
+collect.
+stop.
+restart.
+step.
+setpause.
+setstepmul.
+isrunning.
+assertion failed!.
+control structure too long.
+opcodes.
+function or expression needs too many registers.
+constants.
+create.
+resume.
+running.
+status.
+wrap.
+yield.
+isyieldable.
+too many arguments to resume.
+too many results to resume.
+thread expected.
+suspended.
+normal.
+dead.
+getuservalue.
+gethook.
+getinfo.
+getlocal.
+getregistry.
+getmetatable.
+getupvalue.
+upvaluejoin.
+upvalueid.
+setuservalue.
+sethook.
+setlocal.
+setmetatable.
+setupvalue.
+traceback.
+nil or table expected.
+level out of range.
+k.
+count.
+tail call.
+invalid upvalue index.
+Lua function expected.
+flnStu.>%s.
+invalid option.
+source.
+short_src.
+linedefined.
+lastlinedefined.
+what.
+currentline.
+nups.
+nparams.
+isvararg.
+name.
+namewhat.
+istailcall.
+activelines.
+func.
+external hook.
+lua_debug> .cont..=(debug command).%s..(*temporary).(*vararg).=[C].=?.
+main.
+Lua.
+C.
+for iterator.
+metamethod.
+hook.
+global.
+field.
+method.
+constant.
+upvalue.
+attempt to %s a %s value%s.
+%s:%d: %s. 
+(%s '%s').
+concatenate.
+number%s has no integer representation.
+attempt to compare two %s values.
+attempt to compare %s with %s.
+error in error handling.
+stack overflow.
+call.
+C stack overflow.
+cannot resume non-suspended coroutine.
+cannot resume dead coroutine.
+attempt to yield across a C-call boundary.
+attempt to yield from outside a coroutine.
+binary.
+attempt to load a %s chunk (mode is '%s').
+text.
+no message.
+error in __gc metamethod (%s).
+_G.
+coroutine.
+io.
+os.
+math.
+utf8.
+debug.
+FILE*.
+_IO_input.
+stdin._
+IO_output.
+stdout.
+stderr.
+cannot close standard file.
+close.
+flush.
+lines.
+read.
+seek.
+setvbuf.
+write.
+__tostring.
+file (closed).
+file (%p).
+attempt to use a closed file.
+full.
+line.
+cur.
+set.
+too many arguments.
+eE.
+pP.
+invalid format.
+file is already closed.
+input.
+open.
+output.
+popen.
+tmpfile.
+standard %s file is closed.
+closed file.
+file.
+'popen' not supported.
+w.
+cannot open file '%s' (%s).
+rwa.
+b.
+invalid mode.
+_ENV.
+and.
+do.
+else.
+elseif.
+end.
+for.
+goto.
+if.
+in.
+local.
+not.
+or.
+repeat.
+return.
+then.
+until.
+while.
+'%c'.'%s'.//.==.>=.<=.~=.<<.>>.::.<eof>.<number>.<integer>.<name>.<string>.
+lexical element too long.
+%s near %s.
+chunk has too many lines.
+invalid long string delimiter.
+unfinished string.
+hexadecimal digit expected.
+missing '{'.UTF-8 value too large.missing '}'.
+invalid escape sequence.
+decimal escape too large.
+Ee.
+Pp.
+malformed number.
+comment.
+unfinished long %s (starting at line %d).
+pi.
+huge.
+maxinteger.
+mininteger.
+abs.
+acos.
+asin.
+atan.
+ceil.
+cos.
+deg.
+exp.
+tointeger.
+floor.
+fmod.
+ult.
+log.
+max.
+modf.
+rad.
+random.
+randomseed.
+sin.
+sqrt.
+tan.
+type.
+integer.
+float.
+wrong number of arguments.
+interval is empty.
+interval too large.
+value expected.
+too many %s (limit is %d).
+memory allocation error: block too big.
+searchers.
+/app0/lua_include/?.lua;
+/app0/lua_include/?/init.lua;
+/hostapp/lua_include/?.lua;
+/hostapp/lua_include/?/init.lua;
+/hostapp/lua_include/?.lua;
+/hostapp/lua_include/?/init.lua;.
+/?.lua;.
+/?/init.lua./hostapp/lua_include/?.so;
+/hostapp/lua_include/loadall.so;./?.so.cpath./.;.?.!.-..
+config.
+_LOADED.
+loaded.
+_PRELOAD.
+preload.
+require.
+'package.
+searchers' must be a table.
+module '%s' not found:%s.'package.%s' must be a string.../.
+error loading module '%s' from file '%s':..%s...no module '%s' in file '%s'._.
+luaopen_%s.
+dynamic libraries not enabled; check your Lua installation.
+?.r...
+no file '%s'...
+no field package.
+preload['%s'].
+loadlib.
+searchpath.
+absent..
+xXnN.%.14g.-0123456789.(null).<\%d>.%p.%.
+invalid option '%%%c' to 'lua_pushfstring'.....[string "."].
+clock.
+date.
+difftime.
+execute.
+exit.
+getenv.
+rename.
+setlocale.
+time.
+tmpname.
+unable to generate a unique filename.
+sec.
+field '%s' is not an integer.
+field '%s' is out-of-bound.
+min.
+hour.
+day.
+month.
+year.
+isdst.
+time result cannot be represented in this installation.
+wday.
+yday.
+field '%s' missing in date table.
+all.
+collate.
+ctype.
+monetary.
+numeric.
+%c.
+*t.
+aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ%||EcECExEXEyEYOdOeOHOIOmOMOSOuOUOVOwOWOy.
+invalid conversion specifier '%%%s'.
+break.
+labels/gotos.
+no visible label '%s' for <goto> at line %d.
+<%s> at line %d not inside a loop.
+<goto %s> at line %d jumps into the scope of local '%s'.
+%s expected.
+C levels.
+%s expected (to close %s at line %d).
+(for index).
+(for limit).
+(for step).
+(for generator).
+(for state).
+(for control).
+'=' or 'in' expected.
+label '%s' already defined on line %d.
+syntax error.
+unexpected symbol.
+function arguments expected.
+functions.
+self.
+<name> or '...' expected.
+local variables.
+cannot use '...' outside a vararg function.
+function at line %d.
+main function.
+too many %s (limit is %d) in %s.
+upvalues.
+not enough memory.
+byte.
+dump.
+find.
+format.
+gmatch.
+gsub.
+lower.
+match.
+rep.
+reverse.
+sub.
+upper.
+packsize.
+data string too short.
+too many results.
+%d-byte integer does not fit into Lua Integer.
+invalid next option for option 'X'.
+format asks for alignment not power of 2.
+integral size (%d) out of limits [1,%d].
+missing size for format option 'c'.
+invalid format option '%c'.
+format result too large.
+variable-length format.
+integer overflow.
+unsigned overflow.
+string longer than given size.
+string length does not fit in given size.
+string contains zeros.
+resulting string too large.
+^$*+?.
+([%-.
+too many captures.
+invalid capture index %%%d.
+unfinished capture.
+pattern too complex.
+invalid pattern capture.
+malformed pattern (missing arguments to '%%b').
+missing '[' after '%%f' in pattern.malformed pattern (ends with '%%').
+malformed pattern (missing ']').
+string/function/table expected.
+invalid use of '%c' in replacement string.
+invalid replacement value (a %s).
+invalid format (repeated flags).
+invalid format (width or precision too long).
+ll.\%d.\%03d.%a.0x%llx.%lld.
+value has no literal form.
+invalid option '%%%c' to 'format'.
+unable to dump given function.
+invalid key to 'next'.
+table overflow.
+table index is nil.
+table index is NaN.
+concat.
+insert.
+pack.
+unpack.
+remove.
+move.
+sort.
+array too big.
+invalid order function for sorting.
+too many elements to move.
+destination wrap around.
+position out of bounds.
+too many results to unpack.
+n.
+wrong number of arguments to 'insert'.
+invalid value (%s) at index %d in table for 'concat'.
+no value.
+nil.
+boolean.
+number.
+string.
+table.
+function.
+thread.
+proto.
+__index.
+__newindex.
+__gc.
+__mode.
+__len.
+__eq.
+__add.
+__sub.
+__mul.
+__mod.
+__pow.
+__div.
+__idiv.
+__band.
+__bor.
+__bxor.
+__shl.
+__shr.
+__unm.
+__bnot.
+__lt.
+__le.
+__concat.
+__call.
+__name.
+perform bitwise operation on.
+perform arithmetic on.
+binary string..
+Lua.
+not a.
+truncated.
+version mismatch in.
+format mismatch in..
+“.....corrupted.int.%s size mismatch in.
+size_t.
+Instruction.
+lua_Integer.
+lua_Number.
+endianness mismatch in.
+float format mismatch in.
+%s: %s precompiled chunk.
+charpattern.
+offset.
+codepoint.
+char.
+len.
+codes.
+invalid UTF-8 code.
+initial position out of string.
+final position out of string.
+value out of range.
+%U.
+out of range.
+string slice too long.
+position out of range.
+initial position is a continuation byte.
+index.
+'__index' chain too long; possible loop.
+'__newindex' chain too long; possible loop.
+string length overflow.
+get length of.
+attempt to divide by zero.
+attempt to perform 'n%%0'.
+'for' limit must be a number.
+'for' step must be a number.
+'for' initial value must be a number.............
+C:\Users\ernesto\Source\Repos\ps1hd\ext\miniz\miniz.c(2783) : Assertion Failed (!num_bits).
+tinfl_decompress.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\miniz\miniz.c(3254) : Assertion Failed (pArray->m_element_size).
+mz_zip_array_ensure_capacity.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\miniz\miniz.c(3230) : Assertion Failed (index < pArray->m_size).
+mz_zip_array_range_check.
+outofmem.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(5172) : Assertion Failed (tga_comp == STBI_rgb).
+stbi__tga_load.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(5221) : Assertion Failed (tga_comp == STBI_rgb).
+stbi__convert_format.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(1376) : Assertion Failed (0).
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4290) : Assertion Failed (out_n == 2 || out_n == 4).
+stbi__compute_transparency16.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4265) : Assertion Failed (out_n == 2 || out_n == 4).
+stbi__compute_transparency.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4018) : Assertion Failed (out_n == s->img_n || out_n == s->img_n+1).
+stbi__create_png_image_raw.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4039) : Assertion Failed (img_width_bytes <= x).
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4100) : Assertion Failed (img_n+1 == out_n).
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(4189) : Assertion Failed (img_n == 3).
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(3590) : Assertion Failed (z->code_buffer < (1U << z->num_bits)).
+stbi__fill_bits.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(3772) : Assertion Failed (a->num_bits == 0).
+stbi__parse_uncompressed_block.
+zlib corrupt.read past buffer.
+output buffer limit.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(3747) : Assertion Failed (c == 18).
+stbi__compute_huffman_codes.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(3618) : Assertion Failed (z->size[b] == s).
+stbi__zhuffman_decode_slowpath.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(1651) : Assertion Failed ((((j->code_buffer) >> (32 - h->size[c])) & stbi__bmask[h->size[c]]) == h->code[c]).
+stbi__jpeg_huff_decode.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image.h(1672) : Assertion Failed (n >= 0 && n < (int) (sizeof(stbi__bmask)/sizeof(*stbi__bmask))).
+stbi__extend_receive.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image_write.h(668) : Assertion Failed (p).
+stbiw__sbgrowf.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image_write.h(789) : Assertion Failed (d <= 32767 && best <= 258).
+stbi_zlib_compress.
+C:\Users\ernesto\Source\Repos\ps1hd\ext\stb/stb_image_write.h(986) : Assertion Failed (o == out + *out_len).
+stbi_write_png_to_mem.
+WARNING: (InputPort) .
+Ran out of buffer bytes. 
+Player: %d - Command: %02X.
+(InputPort) .
+Invalid command %02x.
+ERROR: (SIO) .
+Controller: unimplemented seq# %d (player %d, command %02x).
+(MemCard) .
+Invalid checksum on write: (us: %02x, them: %02x).
+Memcard: unimplemented seq# %d (player %d, command %02x).
+McdSave action deferred: memcardWrite thread is still busy.
+memcardWrite.
+ERROR: (InputPort) .
+Could not save memcard %s.%d.
+INPUTPORT.
+isMemcard_.
+checksum_.
+addr_.
+analogMode_.
+padID_.
+padState_.
+status_.
+rumbleEnabled_.
+rumbleMotors.
+TX.
+GP1.
+W/GPUSTAT.
+GP0.
+W/GPUREAD.
+ERROR: (Cpu) .
+Unhandled 16-bit IO write to %08x  data=0x%04x.
+Unhandled  8-bit IO write to %08x  data=0x%02x.(GPU) .
+Unhandled GPU1 1x command: %08x..Unhandled GPU1 command: %08x..
+Require (cmd < 3 || cmd > 0xe0 || GPU_CMD_SIZES[cmd] > 1) .
+Invalid GPU0 cmd.
+WARNING: (GPU) .
+This game is moving data from VRAM to the CPU.
+Unhandled GP0 cmd: %08x.Require ((sx + w) <= 1024) .
+Invalid gpu2gpu transfer width.
+Require ((dx + w) <= 1024) .
+Require ((sy + h) <= 512) .
+Invalid gpu2gpu transfer height.
+Require ((dy + h) <= 512) .
+ERROR: (GPU) .
+Bad polyline.
+Require (nverts < 32) .
+Invalid vertex count for RasterizeLine.
+GPU.
+videoMode_.
+stat_.
+fifo_.
+data_.
+aaMode_.
+drawArea_.
+drawOffs_.
+displayArea_.
+displayOffs_.
+cpu2gpuXfer_.
+gpu2cpuXfer_.
+inVblank_.
+frameCount_.
+vBlankStartTimer_.
+vBlankEndTimer_.
+hSyncTime_.
+hSyncTimerEnabled_.
+hSyncTimer_.
+vram_.
+Require (fbo_ != nullptr) .
+GPU: Could not allocate FBO
+.--scale.
+auto.
+--antialias.
+SSAA4x.
+MSAA4x.
+--softgpu.
+invalid map/set<T> iterator.
+GTE.
+regs_.
+dat./\.?.lua.
+__this.
+apiRequest.
+getR3KObject.
+getEmuObject.
+getTrophyObject.
+r3kInsnReplace.
+r3kFuncReplace.
+R3K_GetPC.
+R3K_SetPC.
+R3K_GetHi.
+R3K_SetHi.
+R3K_GetLo.
+R3K_SetLo.
+R3K_GetReg.
+R3K_SetReg.
+R3K_ReadMem8.
+R3K_ReadMem16.
+R3K_ReadMem32.
+R3K_ReadMemFloat.
+R3K_ReadMemString.
+R3K_WriteMem8.
+R3K_WriteMem16.
+R3K_WriteMem32.
+R3K_WriteMemFloat.
+R3K_WriteMemString.
+R3K_WriteMemStringZ.
+R3K_AddHook.
+R3K_RemoveHook.
+R3K_InsnReplace.
+R3K_BurnCycles.
+R3K_FlushCache.
+EM_PadRead.
+EM_PadReadLeftStick.
+EM_PadReadRightStick.
+EM_PadSetButtonsMode.
+EM_AddVsyncHook.
+EM_RemoveVsyncHook.
+EM_ThrottleMax.
+EM_ThrottleNormal.
+EM_Log.
+EM_GetNativeLanguage.
+EM_LoadConfig.
+EM_SaveConfig.
+EM_LoadState.
+EM_SaveState.
+EM_NeoMode.
+EM_AddFBMapping.
+EM_RemoveFBMapping.
+EM_Launch.
+TR_Unlock.
+axInsnReplace.
+gpr.zero.at.v0.v1.a0.a1.a2.a3.t0.t1.t2.t3.t4.t5.t6.t7.s0.s1.s2.s3.s4.s5.s6.s7.t8.t9.k0.k1.gp.sp.fp.ra.Unlock.
+Unhandled LUA function %s.(Lua) .
+Launching %s.Could not start %s.
+Invalid SaveConfig() call on unknown/invalid script type.
+SaveConfig: data too big. size: %d, max: 65535.
+lua_config_save.
+Could not write Config %s (%d bytes): %d.
+LUA serializeData: invalid key type %d.
+LUA serializeData: invalid value type %d.
+Invalid LoadConfig() call..
+Invalid token unserializing config data.
+Invalid key token unserializing config data : %d.
+Invalid value token unserializing config data : %d.en.jp.fr.es.de.it.nl.pt.ru.ko.cht.chs.fi.se.dk.no.pl.ptb.gb.tr.esl.ar.frc.%s.
+Invalid option %d for PadSetButtonsMode().
+PadRead.
+PadReadLeftStick.
+PadReadRightStick.
+PadSetButtonsMode.
+AddVsyncHook.
+RemoveVsyncHook.
+ThrottleMax.
+ThrottleNormal.
+Log.
+GetNativeLanguage.
+LoadConfig.
+SaveConfig.
+LoadState.
+SaveState.
+PostEffect.
+PostEffectParams.
+NeoMode.
+CRC32.
+AddFBMapping.
+RemoveFBMapping.
+Launch.
+EM_PostEffectParams.
+EM_PostEffect.
+Instruction Replacements can only be installed at script load time.
+InsnReplace: Opcode at PC %08x already replaced!.
+Invalid parameter passed to AddHook (parameter 3 is not a function).
+GetPC.
+SetPC.
+GetHi.
+SetHi.
+GetLo.
+SetLo.
+GetGpr.
+SetGpr.
+ReadMem8.
+ReadMem16.
+ReadMem32.
+ReadMemFloat.
+ReadMemStr.
+WriteMem8.
+WriteMem16.
+WriteMem32.
+WriteMemFloat.
+WriteMemStr.
+WriteMemStrZ.
+AddHook.
+RemoveHook.
+InsnReplace.
+FuncReplace.
+BurnCycles.
+FlushCache.
+R3K_FuncReplace.
+API version %.1f requested is newer than current API version (%1.f).
+Error on script %s.
+Stopped. 
+Press 'R' to reload scripts..
+package.
+path.;.
+Reloading script %s.
+MDEC1.
+MDEC0.
+WARNING: (MDEC) .
+Unknown command %d.
+Unsupported bpp.
+Require (usedCount < 1024) .
+MDEC: overflow.
+MDEC failed.
+state_.
+input_.
+output_.
+inbuf_.
+outbuf_.
+_head.
+_tail.
+_size.
+_buffer.
+_read.
+_write.
+MFSPU.
+Voices.
+NoiseDivider.
+NoiseCounter.
+FM_Mode.
+Noise_Mode.
+Reverb_Mode.
+GlobalSweep.
+ReverbVol.
+CDVol.
+ExternVol.
+IRQAddr.
+RWAddr.
+SPUControl.
+VoiceOn.
+CWA.
+clock_divider.
+AuxRegs.
+RvbResPos.
+ReverbCur.
+IRQAsserted.
+SPURAM.
+last_rate.
+last_quality.
+IntermediateBufferPos.
+IntermediateBuffer.
+/host./host/....master_check (IsMswPathSep(src[2])) .
+Invalid msw-specific non-rooted path with drive letter: %s..
+Non-rooted paths of this type are not supported to non-standard.
+and non-portable nature of the specification...
+Invalid path layout: %s.
+Rooted paths without drive specification are not allowed..
+Please explicitly specify the drive letter in the path..
+true.on.false.ERROR: (thread) .
+scePthreadCreate('%s', stacksize=%d) failed..
+Require (handle_ == 0) .
+Invalid object state: joinable thread is still running..
+%TITLE_ID%_0.mcd.
+%TITLE_ID%_1.mcd.
+SLUS00000.
+%TITLE_ID%.
+%FRAME_ID%.
+%u.%
+CPU_CYCLE%.
+%010zx.
+invalid string position.
+(ConfigFile) .
+[loading] '%s'.
+[skipped] '%s': not present...
+WARNING: (ConfigFile) .
+Skipping invalid entry in config file %s at line %d.
+Package configuration is malformed or corrupted..
+ios_base::badbit set.
+ios_base::failbit set.
+ios_base::eofbit set.
+--state-restore.
+--wait.--mcd0.
+--mcd1.scripts.(PS1) .
+Looking for scripts.....lua.
+Loading script: %s.ERROR: (Lua) .
+Failed to load script %s.
+Require (drawEngine_ != nullptr) .
+PS1 needs a draw engine!.
+Require (drawEngine_->Init() == 0) .
+Could not initialize draw engine.
+Require (saves_->init()) .
+Could not initialize save system.
+--bios.
+Require (getSetting("--bios", bios_path_setting)) .
+Please specify a --bios path.
+Require (fs::exists(biosPath)) .
+Could not find BIOS at path: %s.
+Require (fopen_s(&f, biosPath, "rb") == 0) .
+Could not open BIOS for reading at path: %s.
+Could not read BIOS at path: %s.
+flight.
+vblank.
+STOPPED   frame=%5d(%s) reason=%04X.
+RUNNING.
+Reloading scripts....
+/app0./hostapp/config-emu-ps4.txt.
+--configpath.
+Require (sceUserServiceInitialize2(700, 0x7f) == 0) .
+Failed to initialize user service.
+emu.
+memcard_0.img.
+memcard_1.img.
+uxMessage.
+config-emu-ps4.txt.
+(TrophyNull) .
+unlock %d.
+dispose.
+init.
+ERROR: (AudioOutputPS4) .
+Error: sceAudioOutInit returned 0x%08x.
+sceAudioOutOpen returned 0x%08x.
+C:\Program Files (x86)\SCE\ORBIS SDKs\6.000\target\include_common\gnmx/gfxcontext.h.
+drawIndex.
+Using a shader that is expecting a vertex and/or instance offset without specifing them.
+drawIndexAuto.
+C:\Users\ernesto\Source\Repos\ps1hd\PS4\DrawEnginePS4.cpp.
+setupScreenViewportNoScissor.
+dcb must not be NULL..
+right (%u) - left (%u) must be in the range [1..16384]..
+bottom (%u) - top (%u) must be in the range [1..16384]..
+ERROR: (DrawEnginePS4) .
+GpuAddress::computeSurfaceTileMode: 0x%08X..
+Cannot allocate the render target memory..
+C:\Program Files (x86)\SCE\ORBIS SDKs\6.000\target\include_common\gnm/rendertarget.h.
+setBaseAddress.
+baseAddr (0x%p) must be 256-byte-aligned!.
+C:\Program Files (x86)\SCE\ORBIS SDKs\6.000\target\include_common\gnm/depthrendertarget.h.
+setHtileAddress.
+hTileBaseAddr (0x%p) must be 256-byte-aligned!.
+Cannot allocate the HTILE buffer..
+Cannot allocate the stencil buffer..
+Cannot allocate the depth buffer..
+setZReadAddress.
+zReadAddr (0x%p) must be 256-byte-aligned!.
+setZWriteAddress.
+zWriteAddr (0x%p) must be 256-byte-aligned!.
+setStencilReadAddress.
+stencilReadAddr (0x%p) must be 256-byte-aligned!.
+setStencilWriteAddress.
+stencilWriteAddr (0x%p) must be 256-byte-aligned!.
+Invalid or unexpected texture format.
+Gnm::Texture init() failed with status %08x.
+Cannot allocate the texture data.
+C:\Program Files (x86)\SCE\ORBIS SDKs\6.000\target\include_common\gnm/texture.h.
+Require (constants != nullptr) .
+Ran out of DCB mem.
+GfxContext::submitAndFlip failed: 0x%08X..
+sceKernelWaitEqueue failed: 0x%08X..
+sceVideoOutOpen failed: 0x%08X..
+sceVideoOutSetFlipRate failed: 0x%08X..
+EOP QUEUE.
+sceKernelCreateEqueue failed: 0x%08X..
+Gnm::addEqEvent failed: 0x%08X..
+Cannot allocate the CUE heap memory..
+Cannot allocate the draw command buffer memory..
+Cannot allocate the constants command buffer memory..
+Cannot allocate a GPU label..
+sceVideoOutRegisterBuffers failed: 0x%08X..Require (dummyTexture_ != nullptr) .
+Creating DummyTexture must succeed.
+(DrawEnginePS4) .
+After init: permanentOnion.
+freeSpace=%lld.
+After init: permanentGarlic.
+freeSpace=%lld.
+After init: dynamicGarlic.
+freeSpace=%lld.
+submitDone.
+SubmitDone.
+Require (scePthreadCreate(&s_thr_submitDone, nullptr, SubmitDoneThread, nullptr, "SubmitDone") == 0) .
+Failed to create submitDone thread..Gnm::submitDone failed: 0x%08X..
+ERROR: (PS4Keyboard) .
+Could not load IME library.
+Could not get userID.
+ps4_keyboard.
+Could not open keyboard: %08x.
+Could not close keyboard: %08x.
+(PS4Keyboard) .
+Keyboard library is opened[uid=0x%08x]:Resource ID(%d, %d, %d).
+Keyboard is connected[uid=0x%08x]:Resource ID(%d, %d, %d).
+Keyboard is disconnected[uid=0x%08x]:Resource ID(%d, %d, %d).
+Keyboard manager was aborted.
+ERROR: (SaveDataPS4) .
+Could not get userid.sceSaveDataMount2 : 0x%08x(%s).
+sceSaveDataRestoreBackupData failed with error: 0x%08x.
+dialogConfirmRestore sceSaveDataDialogOpen failed (0x%08x).
+master_abort .
+sceSaveDataInitialize3 failed with code=%08x.
+sceCommonDialogInitialize failed with code=%08x.
+sceSysmoduleLoadModule(SCE_SYSMODULE_SAVE_DATA_DIALOG) failed with code=%08x.
+C:\Program Files (x86)\SCE\ORBIS SDKs\6.000\target\include_common\gnm/shader.h.
+patchShaderGpuAddress.
+gpuAddress must not be NULL..
+Shader's gpu address (0x%p) needs to be 256 bytes aligned.
+PS1HD.
+wb.
+JOY_DATA.
+JOY_STAT.
+JOY_MODE.
+JOY_CTRL.
+JOY_BAUD.
+SIO_RX_DATA.
+SIO_STAT.
+SIO_MODE.
+SIO_CTRL.
+SIO_MISC.
+SIO_BAUD.
+WARNING: (Sio) .
+SIO ioWrite32(%08x,data=%08x) will be truncated to 8-bits..
+SIO ioWrite32(%08x,data=%08x) will be truncated to 16-bits..
+WARNING: (SIO) .Transfer requested with JoyN low. 
+Aborting..
+Selected port %d has no handler. 
+Aborting..
+This game uses unsupported Rx interrupts.
+This game uses unsupported Tx interrupts.
+SIO.
+ports_.
+C:\Users\ernesto\Source\Repos\ps1hd\SoftRaster.cpp(169) : Assertion Failed (false).
+InternalRenderTriangle.
+SPU_V%02d_SWPVOL.
+SPU_AUX.
+SPU.
+SPU_V%02d_%s.
+SPU2.
+SPU_MVOLL.
+SPU_MVOLR.
+SPU_EVOLL.
+SPU_EVOLR.
+SPU_KON.
+SPU_KOF.
+SPU_PMON1.
+SPU_PMON2.
+SPU_NON1.
+SPU_NON2.
+SPU_EON1.
+SPU_EON2.
+SPU_ENDX1.
+SPU_ENDX2.
+SPU_TEMP.
+SPU_ESA.
+SPU_IRQA.
+SPU_TSA.
+SPU_TDATA.
+SPU_CTRL.
+SPU_CTRL2.
+SPU_STATX.
+SPU_AVOLL.
+SPU_AVOLR.
+SPU_BVOLL.
+SPU_BVOLR.
+SPU_MVOLXL.
+SPU_MVOLXR.
+ADSR1.
+MVOLL.
+ADSR2.
+ENVX.
+LSAX.
+MVOLR.
+PITCH.
+ADDR.
+lastTicks_.
+map/set<T> too long.
+ERROR: (StateSaver) .
+Require (copysize == entry.size()) .
+ReadState: itrem '%s' emu expects %d bytes, state contains %d bytes.
+ReadState: Unknown entry named %s.
+--texdump.
+--texreplace.
+--texrecent..
+png.%08x_%d_%d.
+(TexCache) .
+unexpected filename format for replacement texture: '%s'.
+Require (w == width && h == height) .
+Size mismatch on replacement texture: '%s'.
+Require (tex) .
+Could not allocate replacement texture.
+list<T> too long.
+Pacing Purge.
+Invalid texture format %d, skipping.
+Require (false) .
+Invalid Texture Format.
+Require (ts.width <= 256 && ts.height <= 256) .
+Invalied texture size!.%08X_%d_%d.
+png.
+Require (entry->nativeTexture != nullptr) .
+Invalid texcache entry.
+Require (width <= 256 && height <= 256) .
+Invalid texture size.
+TIMERS.
+%lu.
+timer_.
+ERROR: (Timing) .
+timerGetElapsedTime: invalid timer id %d.
+timerGetParam: invalid timer id %d.
+Require (!queue_.empty()) .
+Must have set at least one timer before running.
+Unknown.
+rb.
+ERROR: (TitleIDExtractor) .
+Error: Invalid ISO9660 file system..
+Error: Unable to read ISO9660 primary volume descriptor..
+Error: Primary volume decsriptor not found at sector 16..
+Error: Bad primary volume descriptor version..
+Error: Bad primary volume descriptor structure version..
+CD001.
+Error: Bad primary volume descriptor identifer..(TitleIDExtractor) .
+Location of root directory extent: %u..
+Length of root directory extent: %u..
+Error: Failed to read directory entry at sector: %u..
+Found Title ID: %s.
+string too long.
+Error: Unable to read system directory record length..
+Error: Unable to read directory record..
+Error: Directory record file identifier is too large: %u bytes.
+Error: Unable to read directory record file identifier.
+Error: Unable to read through zeroes.
+Error: Unable to read through zeroes (not the first).
+vector<T> too long
