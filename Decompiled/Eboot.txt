@@ -996,7 +996,9 @@ ios_base::failbit set.
 ios_base::eofbit set.
 --state-restore.
 --wait.--mcd0.
---mcd1.scripts.(PS1) .
+--mcd1.
+scripts.
+(PS1) .
 Looking for scripts.....lua.
 Loading script: %s.ERROR: (Lua) .
 Failed to load script %s.
