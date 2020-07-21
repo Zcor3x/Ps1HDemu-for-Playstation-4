@@ -42,7 +42,7 @@ local emu	= getEmuObject() -- emulator
 emu.PadRead
 emu.PadReadLeftStick
 emu.PadReadRightStick
-emu.PadSetButtonsMode
+emu.PadSetButtonsMode                                                                                                           2 -- switch Select/Start -> Touchpad/Options mode
 emu.AddVsyncHook
 emu.RemoveVsyncHook
 emu.ThrottleMax
