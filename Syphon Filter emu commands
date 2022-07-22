@@ -1,7 +1,7 @@
 --title-id
 --opt-cache-isolation
 --ps1-title-id=SLPM00001
---pace-gpu-dma
+--pace-gpu-dma=true,false
 --defer-linked-dma-irq
 --libcrypt
 --cdrom-max-seek
@@ -21,7 +21,7 @@
 --ps1-title-id
 --bios=SCPH5500.bin,SCPH5501.bin,SCPH5502.bin
 --bios-dir== Usage Notes:  Specify custom path to ALL assets with --assets-dir=/path/to/assets, Specify custom path to BIOS assets with --bios-dir=/path/to/bios_dir ,Explicitly specify BIOS file with --bios-dir=/path/to/bios.bin
---bios-hide-sce-osd
+--bios-hide-sce-osd=1
 --state-restore
 --snapshot-restore
 --trace-snap-compare= defer
@@ -53,7 +53,7 @@
 --clamp-line-thickness-max
 --clamp-line-thickness-min
 --ctlanalog
---sim-analog-pad
+--sim-analog-pad=0x2020
 --scale
 --gamma
 --brightness
@@ -63,8 +63,9 @@
 --screenshot-dir
 --assets-dir
 --savedata-mode
---ps4-trophies
---trophies
+--ps4-trophies=1
+--trophies=1
+--ps5-uds=1
 
 
 ====================================================================================================================
