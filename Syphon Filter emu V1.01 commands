@@ -1,0 +1,12 @@
+--boot-disc-id= [--boot-disc-id] has value of %d[--boot-disc-id] has value of %d
+				[--boot-disc-id] has invalid value: %s
+				[--boot-disc-id] setting to -1 because of --trace-snap-compare
+--boot-disc-id=%d
+--sce-executable-fullpath=%s
+--sce-executable-fullpath
+--cdrom-cmd-time
+--gpu-scanout-fps-override= CLI syntax error, expected number: --gpu-scanout-fps-override=%s
+--mcd-export=  > Specify --mcd-export=1 in the CLI to enable memcard exporting.
+--mcd-export-dir
+--has-shown-start-select-help
+--imageName=%d
