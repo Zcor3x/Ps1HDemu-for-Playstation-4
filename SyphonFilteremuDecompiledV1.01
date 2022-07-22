@@ -1,0 +1,3430 @@
+unexpected trailing 
+exceeded maximum nesting depth
+expected '"' in object, got 
+expected ':' in object, got 
+expected ',' in object, got 
+expected ',' in list, got 
+expected value, got 
+unexpected end of input
+leading 0s not permitted in numbers
+invalid 
+ in number
+at least one digit required in fractional part
+at least one digit required in exponent
+parse error: expected 
+, got 
+unexpected end of input in string
+unescaped 
+ in string
+bad \u escape: 
+invalid escape character 
+unexpected end of input after start of comment
+unexpected end of input inside multi-line comment
+malformed comment
+'%c' (%d)
+(%d)
+%.17g
+\\
+\"
+\b
+\f
+\n
+\r
+\t
+\u%04x
+\u2028
+\u2029
+[
+, 
+{
+}
+BP-TLINDQUI-07/tlindquist
+2022-May-18 pkg-shell (20220518--1748)
+clang v%d.%d
+Master
+ LTO
+PS4
+@@_git_binary_rev:9911959e2a85fcb4c456ce5381dec5bf5c18858c:_@@
+ja-JP
+en-US
+fr-FR
+es-ES
+de-DE
+it-IT
+nl-NL
+pt-PT
+ru-RU
+ko-KR
+zh-CHT
+zh-CHS
+fi-FI
+sv-SE
+da-DK
+no-NO
+pl-PL
+pt-BR
+en-GB
+tr-TR
+es-MX
+fr-CA
+cs-CZ
+hu-HU
+el-GR
+ro-RO
+th-TH
+vi-VN
+id-ID
+uk-UA
+AR
+cs
+CZ
+da
+DK
+DE
+el
+GR
+GB
+ES
+MX
+FI
+CA
+FR
+hu
+HU
+id
+ID
+IT
+ja
+JP
+KR
+NL
+NO
+PL
+BR
+PT
+ro
+RO
+RU
+sv
+SE
+th
+TH
+TR
+uk
+UA
+vi
+VN
+zh
+CHS
+CHT
+localization/%s.json
+(LocalizationManager) WARN : 
+Could not open %s for reading, falling back to en-US
+json11 could not parse %s, error=%s
+ios_base::badbit set
+ios_base::failbit set
+ios_base::eofbit set
+: 
+user_snapshot__slot_%d.bin
+i18nSaveDataTitleQuickSaves
+i18nSaveDataSubTitleQuickSaves
+snapshot writer
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\MultisnapSaveData.cpp(114): 
+Verify(mount.IsValid())
+Snapshot save FAILED, insufficient space or savedata corrupted
+Could not save the state %s
+--title-id
+CUSA0000
+savedata
+(transferFileToUSB) ERROR: 
+fwrite('%s', size=%jx) failed.
+fopen('%s') failed.
+(UserSaveStateManager) ERROR: 
+memcard write failed to %s
+Snapshot export FAILED on write %s
+Snapshot exported to %s
+Snapshot export failed. No writable USB media found.
+Snapshot import FAILED reading %s
+Snapshot import FAILED: insufficient space to create new data.
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\QAProcess-SaveDataUSB.cpp(137): 
+Verify(mount.result == HostSaveData_Found)
+Snapshot import FAILED: savedata is corrupt and could not be written.
+%d snapshot%s imported from %s
+/usb%d
+/savedata
+FAILED REQUIRE(result != -2137063424)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\SaveDataPS4.cpp(74): 
+Unmount deadlock fault at %.1f seconds. m_mountPath=%s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\SaveDataPS4.cpp(88): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\SaveDataPS4.cpp(100): 
+Verify(result == SCE_OK)
+sceSaveDataUmount(%s) failed, code 0x%08x (%s)
+SLUS00000
+(SaveDataPS4) ERROR: 
+transferSavegames: Invalid title ID
+Savedata exported to %s
+Cannot export: No writable USB media found.
+Savedata import FAILED from %s
+Savedata imported from %s
+net_time
+Timing
+SnapshotTimeline
+%jx
+(SaveStateManager) ERROR: 
+Internal memory allocation is zero.
+HeapDirectMem
+sceKernelAllocateDirectMemory(%jd) failed, code=%08x (%s)
+
+sceKernelMapDirectMemory(0x%jx) failed, code=%08x (%s)
+
+(HostMem) Mapped %-10s  @ %p -> %p   (DMEM=%09jx) [%s]
+
+User Malloc
+sceLibcMspaceCreate(%p) failed, code=%08x (%s)
+
+ ***[[ OOM ]]***  Out of memory allocating %jd bytes
+
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\SceHeapReplace.cpp(100): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\SceHeapReplace.cpp(175): 
+invalid
+(ImGui) 
+Could not load asset: '%s'
+:
+i18nFileSizeIntegerMegabytes
+value
+i18nSaveSlotNumber
+SlotNumber
+i18nDate
+i18nPlayTime
+i18nFileSize
+checkmark.png
+forbidden.png
+i18nNavigateTimeline
+i18nAccept
+i18nBack
+i18nTriangleCreateQuicksave
+/temp0/reboot-app-cli.txt
+/temp0/reboot-params.txt
+--boot-disc-id=
+--boot-disc-id=%d
+--sce-executable-fullpath=%s
+sceSystemServiceLoadExec failed with 0x%08x
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\xem-app.cpp(146): 
+--sce-executable-fullpath
+[xem_app_reboot] %s
+[write_cmdLine] failed to write to %s
+(AudioCDWave) ERROR: 
+%s is not a directory
+.wav
+currentTrack_
+peakLevels_
+sampleOffset_
+File %s is not a RIFF WAVE file
+(AudioCDWave) 
+Weird SoundForge(?) WAV detected (0xFE02)
+formatTag = %d: unknown, can't read file '%s'
+%s: %d kHz, %d channels, %d blockalign, bytesPerSec=%d
+Only 16-bit samples are supported
+Only 44100Hz samples are supported
+Unsupported number of channels: %d (only 2 supported)
+(HLEsceSasCore) 
+No data chunk found
+End of RIFF
+(BaseIO) 
+Cache Control Read
+Cache Control Write: I-Cache Disabled.
+ISTAT
+IMASK
+EXP1_BASE
+EXP2_BASE
+EXP1_DELAY
+EXP3_DELAY
+BIOS_DELAY
+SPU_DELAY
+CDROM_DELAY
+EXP2_DELAY
+COM_DELAY
+RAM_SIZE
+CACHE_CTRL
+EXROMCHECK
+BASEIO
+(ControllerManager) 
+Max supported players is 4. Please increase limit
+(Counters) 
+Unknown read: %08x
+CNTR0_COUNT
+CNTR0_CTRL
+CNTR0_TARGET
+CNTR0_INVALID
+CNTR1_COUNT
+CNTR1_CTRL
+CNTR1_TARGET
+CNTR1_INVALID
+CNTR2_COUNT
+CNTR2_CTRL
+CNTR2_TARGET
+CNTR2_INVALID
+CNTR3_COUNT
+CNTR3_CTRL
+CNTR3_TARGET
+CNTR3_INVALID
+(Counters) ERROR: 
+expected value >= 0x10000, rcnt%d ctrl=%04x value=%04x
+expected wrapped value at or near zero, rcnt%d ctrl=%04x value=%04x tgt=%04x
+expected unwrapped value past target,   rcnt%d ctrl=%04x value=%04x tgt=%04x
+COUNTERS
+counters_
+(Cpu) ERROR: 
+FAILED REQUIRE(size <= PS1_BIOSSIZE)
+BIOS Image too large
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CPU.cpp(899): 
+--opt-cache-isolation
+(Cpu) WARN : 
+Title has disabled I-Cache (SR.SwC=1)
+(CPU) ERROR: 
+PS1 Syscall _exit() invoked. Title is really unhappy with the emulation state and is trying to seppuku.
+PS1 Syscall _exit() invoked.
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CPU.cpp(1636): 
+Script hook verification failure @ pc=%08x: Expected 0x%08x, Found 0x%08x
+(MIPS) ERROR: 
+Invalid OP replace at PC: 0x%08x. Expected 0x%08x, Found 0x%08x
+(MIPS) WARN : 
+Invalid hook installed on a delay slot at PC: 0x%08x
+Invalid AOT installed on a delay slot at PC: 0x%08x
+Invalid OP replace @ pc=%08x: Expected 0x%08x, Found 0x%08x
+CPU
+ram_
+fastmem_
+hi_
+lo_
+pc_
+clock_
+cop0_
+lds_
+Script hook overlaps AOT  @ pc=%08x: AOT range=%08x->%08x
+AOT block @ pc=%08x: DISABLED
+RemoveHook(pc=%06x) existing hook does not belong to this script.
+  > Owner='%s'
+nullptr
+removeHookHandler: Blockstore hook conflict detected @ pc=%06x
+Insn replace overlaps AOT @ pc=%08x: AOT range=%08x->%08x
+(STDOUT) 
+OP_BREAK pc=%08x
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CPU.cpp(1003): 
+(CPU) 
+Division by zero at PC: %08x
+io%-5s%-2d(%08x): Unhandled!
+store
+PS1 Title ID = %s
+Title ID discovered in sector %d, pos %ju (raw file seekpos=%ju)
+Could not discover a valid title ID from the disc image (this is normal for Japanese SKUs)
+Please specify a title ID manually for this disc image in config-title.txt
+  example: --ps1-title-id=SLPM00001
+Disc image not found: %s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\DiscDiscoverRegion.cpp(101): 
+SLPM00000
+--pace-gpu-dma
+--defer-linked-dma-irq
+(DMA) ERROR: 
+Unknown read from channel %d reg %d
+Invalid write to %08x data=%08x
+(DMA) WARN : 
+Starting DMA channel %d, when a transfer is already ongoing!
+Invalid write to channel %d reg %d
+D0_MADR
+D0_BCR
+D0_CHCR
+D0_INVALID
+D1_MADR
+D1_BCR
+D1_CHCR
+D2_MADR
+D2_BCR
+D2_CHCR
+D3_MADR
+D3_BCR
+D3_CHCR
+D4_MADR
+D4_BCR
+D4_CHCR
+D5_MADR
+D5_BCR
+D5_CHCR
+D6_MADR
+D6_BCR
+D6_CHCR
+DPCR
+DICR
+D_UNK1
+D_UNK2
+Unhandled DMA channel %d
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\DMA.cpp(851): 
+DMA
+channels_
+irq_
+Could not find image '%s'
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(109): 
+FAILED REQUIRE(sceKernelRead(fd, cache_, partial_chunk) == partial_chunk)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(122): 
+SCEI
+(CDRomAsync) 
+Partial cache read completed.
+FAILED REQUIRE(sceKernelRead(fd, cache_ + partial_chunk, readsize) == readsize)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(139): 
+Full cache read completed.
+(CDRom) WARN : 
+Found a pregap discrepancy on track %02x. Fixing.
+--libcrypt
+(CDRom) ERROR: 
+Libcrypt value is invalid (%04x). Must have eight 1 bits
+ > parsing CLI setting: %s=%s
+cdrom_cache_ready
+CdromImageCache
+FAILED REQUIRE(res >= 0)
+Could not allocate CDRom cache
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(211): 
+FAILED REQUIRE(cache_ != nullptr)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(213): 
+--cdrom-max-seek
+--cdrom-cmd-time
+--region
+FAILED REQUIRE(region_.length() == 4)
+CDRom: Region setting is not valid --region=%s)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(243): 
+SCEA
+SCEE
+Assuming region is SCEA for title_id=%s
+BOOT WARNING: neither region nor title id could be detected from boot media.
+SCEI region setting will be assumed. Use --region to set a region explicitly.
+audio
+FAILED REQUIRE(cdda_->trackCount(cdda) == true)
+Could not initialize CDDA tracks
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(280): 
+TOC
+FAILED REQUIRE(fopen_s(&tocFile, toc, "rb") == 0)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(289): 
+FAILED REQUIRE(fread(toc_.data(), sizeof(track), tocEntries, tocFile) == tocEntries)
+Invalid or corrupt TOC on file %s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(290): 
+cdrom_image_cache
+CDROM_STAT
+CDROM_RESP
+CDROM_DATA
+CDROM_IRQ
+Want irq on command start, not implemented yet
+Write to port %d:%d unsupported (%02x)
+This game is attempting to read a LibCrypt key
+(CDRom) 
+Answered LibCrypt query (bit=%d) (key=0x%X)
+FAILED REQUIRE(firstTrack != 0 && lastTrack != 0)
+Invalid tracks on TOC
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(1060): 
+MOD Chip Detection: game is trying to read out SCEx at invalid lba=%d
+TestDisc: requested SCEx counter (data/audio cd check)
+TestDisc: reading SCEx counter result. curtick=%ju target=%ju
+unused parameter left in the FIFO. Clearing...
+(CDDA) WARN : 
+Failed to read samples from track %d, sample offset %d
+(CDROM) WARN : 
+Read progressed past the end of the disc.
+CDRom: Unknown controller state %d
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(1540): 
+FAILED REQUIRE(resampleSamples < sizeof(resampleBuffer))
+resample buffer too small
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(1702): 
+CDROM:Controller
+irqEnable
+irqRequest
+readTimecode
+seekTimecode
+seekPending
+shellOpen
+command
+busy
+muted
+mode
+filter
+xasamples
+volume
+tempvolume
+readTimer
+SCEx_Counters
+SCEx_request_timestamp
+AudioCD
+controller_
+CDROM
+parameters_
+response_
+audiobuf_
+imageDiscId_
+buffer_
+cachePos_
+cmdQueue_
+discId
+imageName_
+D2.bin
+Disc2.BIN
+Disc3.BIN
+Disc4.BIN
+Delaying read until cache is partially filled
+Delaying read until cache is full
+invalid lba/sector = %d/%d
+FAILED REQUIRE(fs::exists(fullpath))
+Disc image file does not exist: %s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(2012): 
+setImageName(%s)
+FAILED REQUIRE(fopen_s(&fp_, fullpath, "rb") == 0)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\CDRom.cpp(2025): 
+imgui.ini
+imgui_log.txt
+#MOVE
+##Background
+##Foreground
+Debug##Default
+Window
+##Tooltip_%02d
+##Popup_%08x
+
+%*s%.*s
+%*s%.*s
+ %.*s
+
+
+###
+wt
+Docking
+DockSpace
+HoveredId: 0x%08X
+Press ESC to abort picking.
+Click to break in debugger!
+%s/%08X
+#RESIZE
+#UNHIDE
+#COLLAPSE
+#CLOSE
+###NavWindowingList
+(Popup)
+##MainMenuBar
+(Main menu bar)
+(Dock node)
+(Untitled)
+Pos=%f,%f
+Size=%f,%f
+ViewportId=0x%08X
+ViewportPos=%f,%f
+Collapsed=%d
+DockId=0x%X,%d
+DockId=0x%X
+ClassId=0x%X
+[%s][%s]
+
+ViewportPos=%d,%d
+
+ViewportId=0x%08X
+
+Pos=%d,%d
+
+Size=%d,%d
+
+Collapsed=%d
+
+DockId=0x%08X
+
+DockId=0x%08X,%d
+
+ClassId=0x%08X
+
+##DockNode_%02X
+##Splitter
+#WindowMenu
+#TITLEBAR
+Hide tab bar
+   
+Data
+DockNode
+ID=0x%08X%n
+ Parent=0x%08X%n
+ Window=0x%08X%n
+ Pos=%i,%i%n
+ Size=%i,%i%n
+ SizeRef=%i,%i%n
+ Split=%c%n
+ NoResize=%d%n
+ CentralNode=%d%n
+ NoTabBar=%d%n
+ HiddenTabBar=%d%n
+ NoWindowMenuButton=%d%n
+ NoCloseButton=%d%n
+ Selected=0x%08X%n
+[%s][Data]
+
+%*s%s%*s
+DockNode 
+ ID=0x%08X
+ Parent=0x%08X SizeRef=%d,%d
+ Window=0x%08X
+ Pos=%d,%d Size=%d,%d
+ Split=%c
+ NoResize=1
+ CentralNode=1
+ NoTabBar=1
+ HiddenTabBar=1
+ NoWindowMenuButton=1
+ NoCloseButton=1
+ Selected=0x%08X
+ProggyClean.ttf, %dpx
+#SCROLLX
+#SCROLLY
+[x]
+[ ]
+ |
+--------------------------------
+##Combo_%02d
+%lf
+_IMWINDOW
+%.*s
+*
+%u
+%llu
+##v
+##<
+##>
+bad SOF len
+only 8-bit
+no header height
+0 width
+bad component count
+bad component ID
+bad H
+bad V
+bad TQ
+too large
+outofmem
+junk before marker
+bad SOS component count
+bad SOS len
+bad DC huff
+bad AC huff
+bad SOS
+bad huffman code
+can't merge dc and ac
+not enough pixels
+invalid filter
+bad zlib header
+no preset dict
+bad compression
+zlib corrupt
+read past buffer
+output buffer limit
+bad sizes
+bad codelengths
+wb
+--guncon
+--multitap
+(SIO) ERROR: 
+Controller: sequence out-of-bounds, seq=%d cmd=%02X port=%d
+Controller: unimplemented seq# %d (port/player %d, command %02x)
+Invalid command %02x
+(MemCard) 
+Invalid checksum on write: (us: %02x, them: %02x)
+Memcard: unimplemented seq# %d (port/player %d, command %02x)
+INPUTPORT
+seq_
+isMemcard_
+command_
+checksum_
+addr_
+analogMode_
+status_
+rumbleEnabled_
+rumbleMotors
+memcard_
+config_
+slot_
+padState_
+padID_
+isMultitapLong_
+isNextMultitapLong_
+configNext_
+seq_bytes_tx_
+seq_bytes_rx_
+padValidState_
+TX
+invalid stoull argument
+stoull argument out of range
+--vram-read-frame-delay
+--present-delay-scanlines
+auto
+--id-engine
+--metal-gear-solid
+(GPU) 
+resetScale(%d, %s): framebuffer=%d,%d
+FAILED REQUIRE(vram_on_gpu_)
+resetScale(%d, %s) failed to CreateFramebuffer. framebuffer=%d,%d
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(460): 
+(GPU) ERROR: 
+Invalid rectangle in flushPendingTextureUpload
+GP0.W/GPUREAD
+GP1.W/GPUSTAT
+(GPU) WARN : 
+Invalid GPU0 cmd %02x
+Unhandled GPU1 1x command: %08x
+Unhandled GPU1 command: %08x
+Special texture upload. Please check mask bit
+New lock bit setting: set:%d test:%d
+Unhandled GP0 cmd: %08x
+Invalid video mode selected? (%d)
+Bad polyline
+s %d %d, d %d %d, size %d %d
+FAILED REQUIRE((sx + w) <= 1024)
+Invalid gpu2gpu transfer width
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(2583): 
+FAILED REQUIRE((dx + w) <= 1024)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(2584): 
+FAILED REQUIRE((sy + h) <= 512)
+Invalid gpu2gpu transfer height
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(2585): 
+FAILED REQUIRE((dy + h) <= 512)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(2586): 
+Special gpu transfer. Please check mask bit
+GPU
+videoMode_
+stat_
+fifo_
+data_
+texFlip_
+textureWindow_
+aaMode_
+drawArea_
+drawOffs_
+displayArea_
+displayOffs_
+cpu2gpuXfer_
+gpu2cpuXfer_
+inVblank_
+frameCount_
+disableScanout_
+vBlankStartTimer_
+vBlankEndTimer_
+hSyncTime_
+hSyncTimerEnabled_
+hSyncTimer_
+--snapshot-vram
+vram_on_cpu_
+vram_
+(gpu) ERROR: 
+Invalid blending mode in stat_drawmask case
+--gpu-scanout-fps-override
+ntsc
+pal
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\GPU.cpp(293): 
+CLI syntax error, expected number: --gpu-scanout-fps-override=%s
+AAMode::NoAA
+AAMode::FXAA
+AAMode::CMAA
+AAMode::SSAA_4x
+<invalid>
+GTE
+regs_
+control_
+__this
+R3K_GetPC
+R3K_SetPC
+R3K_GetHi
+R3K_SetHi
+R3K_GetLo
+R3K_SetLo
+R3K_GetGpr
+R3K_SetGpr
+R3K_ReadMem8
+R3K_ReadMem16
+R3K_ReadMem32
+R3K_ReadMemFloat
+R3K_ReadMemString
+R3K_WriteMem8
+R3K_WriteMem16
+R3K_WriteMem32
+R3K_WriteMemFloat
+R3K_WriteMemString
+R3K_WriteMemStringZ
+R3K_AddHook
+R3K_RemoveHook
+R3K_InsnReplace
+R3K_BurnCycles
+R3K_FlushCache
+EM_PadRead
+EM_PadWrite
+EM_PadReadLeftStick
+EM_PadReadRightStick
+EM_PadSetButtonsMode
+EM_ThrottleMax
+EM_ThrottleNormal
+EM_GetNativeLanguage
+EM_NeoMode
+EM_CRC32
+EM_AddVsyncHook
+EM_RemoveVsyncHook
+EM_LoadConfig
+EM_SaveConfig
+EM_LoadState
+EM_SaveState
+EM_Launch
+EM_GetLegacyTitleId
+EM_GetStoreRegion
+EM_GetSettingCli
+EM_SetSettingCli
+EM_GetCDRom
+EM_SetCDRom
+EM_GetDiscId
+EM_LoadDiscId
+TR_Unlock
+at
+v0
+v1
+a0
+a1
+a2
+a3
+t0
+t1
+t2
+t3
+t4
+t5
+t6
+t7
+s0
+s1
+s2
+s3
+s4
+s5
+s6
+s7
+t8
+t9
+k0
+k1
+gp
+sp
+fp
+ra
+gpr
+ctl
+parameter is not a function
+Instruction Replacements can only be installed at script load time
+InsnReplace: Opcode at PC %08x already replaced!
+InsnReplace 0x%08x: 0x%08x
+(LuaEngine) ERROR: 
+Invalid player specified on EM_PadRead
+Invalid parameter sent to EM_PadWrite
+Invalid player specified on EM_PadWrite
+Invalid player specified on EM_PadReadLeftStick
+Invalid player specified on EM_PadReadRightStick
+EM_PadSetButtonsMode is deprecated
+EM_GetCDRom() is removed. Use EM_GetLegacyTitleID() to differentiate discs after a call to EM_LoadDiscId(). Use EM_GetStoreRegion() for store region info.
+jp
+fr
+es
+de
+it
+nl
+pt
+ru
+ko
+cht
+chs
+fi
+se
+dk
+pl
+ptb
+gb
+tr
+esl
+ar
+frc
+Launching %s
+Could not start %s
+FAILED REQUIRE(inbuf_.pop(packed))
+MDEC: overflow
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\MDEC.cpp(301): 
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\MDEC.cpp(314): 
+(MDEC) WARN : 
+Unknown command %d
+MDEC0
+MDEC1
+MDEC
+state_
+input_
+output_
+inbuf_
+outbuf_
+_buffer
+_read
+_write
+_head
+_tail
+_size
+(InputPort) 
+McdSave action deferred: memcardWrite thread is still busy
+memcardWrite
+i18nSaveDataTitleMemoryCards
+i18nSaveDataSubTitleMemoryCards
+[ERROR] Savedata write error. Data has not been saved!
+%TITLE_ID%
+%FRAME_ID%
+%CPU_CYCLE%
+%08u
+%010zx
+(PS1) 
+[applying] from command line:
+--image
+FAILED REQUIRE(!disc_filename.empty())
+Image path not specified, --image setting is required.
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(228): 
+PS1.VMC
+InitSaveDataLoadVmc
+--snapshot-entrypoint
+--snap-entrypoint-filename
+%TITLE_ID%_entrypoint.bin
+--snapshot-autokill
+FAILED REQUIRE(drawEngine_->Init() == 0)
+Could not initialize draw engine
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(323): 
+--ps1-title-id
+FAILED REQUIRE(ps1_title_id.length() == 9)
+Title ID is not valid --ps1_title_id=%s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(331): 
+--bios
+SCPH5500.bin
+SCPH5501.bin
+SCPH5502.bin
+(PS1) WARN : 
+Assuming BIOS is US for title_id=%s
+Autodetected BIOS filename = %s
+bios
+--bios-dir
+BIOS load failed, file could not be opened: %s
+Usage Notes:
+  Specify custom path to ALL assets with --assets-dir=/path/to/assets
+  Specify custom path to BIOS assets with --bios-dir=/path/to/bios_dir
+  Explicitly specify BIOS file with --bios-dir=/path/to/bios.bin
+
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(447): 
+FAILED REQUIRE(fopen_s(&f, biosPath, "rb") == 0)
+Could not open BIOS for reading at path: %s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(453): 
+Could not read BIOS at path: %s
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(456): 
+0
+--bios-hide-sce-osd
+--state-restore
+--boot-disc-id
+[--boot-disc-id] has value of %d
+[--boot-disc-id] has invalid value: %s
+--snapshot-restore
+[--boot-disc-id] setting to -1 because of --snapshot-restore
+--trace-snap-compare
+defer
+[--boot-disc-id] setting to -1 because of --trace-snap-compare
+--wait
+--autokill
+(PS1) ERROR: 
+ignoring config --autokill=%s (parameter is invalid)
+AUTO-KILL scheduled for frame #%d
+--mcd0
+disabled
+--mcd1
+--agerestrict
+(Config) ERROR: 
+Invalid agerestrict option (age: %d)
+sceNpSetContentRestriction failed with %08x (age: %d)
+--state-save
+(Config) 
+Snapshot oneshot event is disabled (specified value is <= 0)
+Snapshot oneshot event scheduled for Frame %d -> %s
+(memory)
+--state-save-period
+--screenshot-period
+--state-save-memslots
+--remap
+SaveState: Writing file '%s'
+--deterministic
+SaveState: hard-linking file '%s'
+snap-%05x-vm%s.bin
+--mcd-export
+--mcd-export-dir
+mcd_snapshot_exports
+_1.mcd
+_2.mcd
+Snapshot memcards will be exported to:
+  > %s
+  > %s
+Snapshot memcard export is disabled. In-game memcard saves will not be persisted to disk.
+ > Specify --mcd-export=1 in the CLI to enable memcard exporting.
+LoadState: Reading file '%s'
+LoadState:ERROR: file '%s' not found.
+LoadState: from memory name='%s'
+LoadUserSnapshot: from slot=%jd
+LoadUserSnapshot: from memory name='%s'
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(1258): 
+Verify(reader)
+nullptr passed into uxMsg_SnapshotSerializeLoadSave
+z-snaptrace.bin
+%TITLE_ID%-%FRAME_ID%.png
+%s:%jx
+Metadata
+net_time_u64
+--load-scripts
+scripts
+Script loading disabled via config.
+(LuaEngine) 
+Loading script: %s
+--boot-script
+app_boot.lua
+Waiting for memcard savedata init...
+%PROCTIME%
+(Config) WARN : 
+%s: each item will probably overwrite the previous one.
+   use %FRAME_ID% or %PROCTIME% or %CPU_CYCLE% to ensure unique filenames.
+cross
+circle
+triangle
+square
+l1
+r1
+l2
+r2
+l3
+r3
+tpad_left
+tpad_right
+start
+left
+right
+up
+down
+Lleft
+Lright
+Lup
+Ldown
+Rleft
+Rright
+Rup
+Rdown
+thumbnail
+(StateSaver) ERROR: 
+Write failed to '%s' expected=%jd actual=%jd
+Could not open '%s' for writing
+%03u_%02u_%02u.%03u
+z-TOOL-IGNORE-autoslot-for-F2-F4-%TITLE_ID%.bin
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1.cpp(1645): 
+Snapshot cannot be loaded. Title ID mismatch. Snapshot wants %s but the current title is %s
+boot_time_
+title_loadexec_done_
+(LuaScript) 
+[%s] Application Boot Script: %s
+found
+skipped
+.lua
+%03d|%s
+PS1S
+Could not load App Content Module (%d)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1HD.cpp(293): 
+Could not initialize App Content Library (%d)
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1HD.cpp(300): 
+PS5 Region Code = 'SIE%c'
+
+--savestate-dir
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1HD.cpp(328): 
+Config option --savestate-dir has been renamed to --snapshot-dir. Please update your config and restart the emulator. The existing setting may still work if you ignore this message. No promises.
+FAILED REQUIRE(sceUserServiceInitialize2(700, 0x7f) == 0)
+Failed to initialize user service
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS1HD.cpp(509): 
+EmuCorePS1
+vmc_slot_0.mcd
+vmc_slot_1.mcd
+--locale
+en
+US
+--xobuttonmode
+oenter
+ocancel
+emu_thread is about to leave the building.
+(AudioOutputPS4) ERROR: 
+Error: sceAudioOutInit returned 0x%08x
+sceAudioOutOpen returned 0x%08x
+(DrawEnginePS4) ERROR: 
+Gnm::submitDone failed: 0x%08X
+
+Cannot initialize the render target
+Cannot allocate the render target memory
+DrawEngineCpuPerm
+DrawEngineGpuPerm
+DrawEngineGpuDynamic
+sceVideoOutOpen failed: 0x%08X
+
+sceVideoOutSetFlipRate failed: 0x%08X
+
+EOP QUEUE
+sceKernelCreateEqueue failed: 0x%08X
+
+Gnm::addEqEvent failed: 0x%08X
+
+Cannot allocate the CUE heap memory
+
+Cannot allocate the draw command buffer memory
+
+Cannot allocate the constants command buffer memory
+
+Cannot allocate a GPU label
+
+DrawEngineGpuPerFrame
+sceVideoOutRegisterBuffers failed: 0x%08X
+
+Cannot allocate CMAA buffers
+FAILED REQUIRE(dummyTexture_ != nullptr)
+Creating DummyTexture must succeed
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS4\DrawEnginePS4.cpp(476): 
+submitDone
+SubmitDone
+FAILED REQUIRE(scePthreadCreate(&s_thr_submitDone, nullptr, SubmitDoneThread, nullptr, "SubmitDone") == 0)
+Failed to create submitDone thread.
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS4\DrawEnginePS4.cpp(505): 
+FAILED REQUIRE(copybackRenderTarget_[rt].init(&spec) == 0)
+Could not create copyback RT
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS4\DrawEnginePS4.cpp(528): 
+FAILED REQUIRE(surfaceAddress)
+Cannot allocate copyback RT memory
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS4\DrawEnginePS4.cpp(533): 
+(DrawEnginePS4) 
+PermanentOnion.freeSpace=%zdMB
+PermanentGarlic.freeSpace=%zdMB
+DynamicGarlic.freeSpace=%zdMB contiguous=%zdMB
+sceKernelWaitEqueue failed: 0x%08X
+
+GfxContext::submitAndFlip failed: 0x%08X
+
+FAILED REQUIRE(constants != nullptr)
+Ran out of DCB mem
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\PS4\DrawEnginePS4.cpp(969): 
+Invalid or unexpected texture format
+Gnm::Texture init() failed with status %08x
+Cannot allocate the texture data
+GpuAddress::computeSurfaceTileMode: 0x%08X
+
+Failed to initialize depth target
+
+Cannot allocate the HTILE buffer
+
+Cannot allocate the stencil buffer
+
+Cannot allocate the depth buffer
+
+GfxContext::submit failed: 0x%08X
+
+(DrawEnginePS4) WARN : 
+Get: Could not find thumbnail for name=%s
+Could not find thumbnail for name=%s
+(imgui) ERROR: 
+User Callback isn't supported
+Cannot allocate the fetch shader memory
+
+Toolkit::SurfaceUtil::generateMipMaps
+sceSysmoduleLoadModule(SCE_SYSMODULE_SYSTEM_GESTURE) failed with code=%08x
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\sce\SceGesture.cpp(16): 
+(SceGesture) ERROR: 
+sceSystemGestureInitializePrimitiveTouchRecognizer failed, code=0x%x
+sceSystemGestureOpen failed, code 0x%08x
+sceSystemGestureCreateTouchRecognizer failed, code=0x%x
+sceSystemGestureAppendTouchRecognizer failed, code=0x%x
+sceSystemGestureRemoveTouchRecognizer failed, code=0x%x
+sceSystemGestureUpdatePrimitiveTouchRecognizer failed, code=0x%x
+sceSystemGestureUpdateAllTouchRecognizer failed, code=0x%x
+scePadInit() failed, code 0x%08x
+(ScePad) 
+scePadGetControllerInformation(ps1_player=%d, pad.handle_=0x%08x) returned error 0x%08x
+scePadSetLightBar(player=%d, handle=%d) failed with code 0x%08x
+scePadOpen(player=%d, user=0x%x) failed, code 0x%08x
+scePadSetAngularVelocityDeadbandState(player=%d, user=0x%x) failed, code 0x%08x
+scePadSetVibration(%d) Could not set vibration, code 0x%08x
+(ScePad) ERROR: 
+scePadOpen(player=%d, user=0x%x, SCE_PAD_PORT_TYPE_SPECIAL) failed, code 0x%08x
+scePadSetTiltCorrectionState(player=%d, user=0x%x) failed, code 0x%08x
+(SceUserService) ERROR: 
+xSceUserLogin(0x%x) too many logged in users.
+(SceUserService) 
+User 0x%0x has logged in (bound to Player %d)
+(ScePadMove) 
+User 0x%x has logged out (bound to Player %d)
+(PS1HD) WARN : 
+UserService Library reports as not being initialized.
+sceUserServiceGetEvent returned unhandled result %08x
+(Sio) WARN : 
+SIO ioWrite32(%08x,data=%08x) will be truncated to 8-bits.
+SIO ioWrite32(%08x,data=%08x) will be truncated to 16-bits.
+JOY_DATA
+JOY_STAT
+JOY_MODE
+JOY_CTRL
+JOY_BAUD
+SIO_RX_DATA
+SIO_STAT
+SIO_MODE
+SIO_CTRL
+SIO_MISC
+SIO_BAUD
+(SIO) WARN : 
+Transfer requested with JoyN low. Aborting.
+Selected port %d has no handler. Aborting.
+This game uses unsupported Rx interrupts
+This game uses unsupported Tx interrupts
+SIO
+ports_
+(Link) 
+Sending Data: %02x %c
+Received Data: %02x %c
+--host-audio
+SPU_V%02d_SWPVOL
+SPU_AUX
+SPU
+MVOLL
+MVOLR
+PITCH
+ADDR
+ADSR1
+ADSR2
+ENVX
+LSAX
+SPU_V%02d_%s
+SPU2
+SPU_MVOLL
+SPU_MVOLR
+SPU_EVOLL
+SPU_EVOLR
+SPU_KON
+SPU_KOF
+SPU_PMON1
+SPU_PMON2
+SPU_NON1
+SPU_NON2
+SPU_EON1
+SPU_EON2
+SPU_ENDX1
+SPU_ENDX2
+SPU_TEMP
+SPU_ESA
+SPU_IRQA
+SPU_TSA
+SPU_TDATA
+SPU_CTRL
+SPU_CTRL2
+SPU_STATX
+SPU_AVOLL
+SPU_AVOLR
+SPU_BVOLL
+SPU_BVOLR
+SPU_MVOLXL
+SPU_MVOLXR
+lastTicks_
+disableAudioOut_
+MFSPU
+Voices
+NoiseDivider
+NoiseCounter
+LFSR
+FM_Mode
+Noise_Mode
+Reverb_Mode
+ReverbWA
+GlobalSweep
+ReverbVol
+CDVol
+ExternVol
+IRQAddr
+RWAddr
+SPUControl
+VoiceOn
+VoiceOff
+BlockEnd
+CWA
+clock_divider
+Regs
+AuxRegs
+RDSB
+RUSB
+RvbResPos
+ReverbCur
+IRQAsserted
+SPURAM
+last_rate
+last_quality
+IntermediateBufferPos
+IntermediateBuffer
+--texreplace
+(TexCache) 
+Pacing Purge
+Invalid Texture Format
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\TexCache.cpp(229): 
+FAILED REQUIRE(entry->nativeTexture != nullptr)
+Invalid texcache entry
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\TexCache.cpp(284): 
+(TexCache) WARN : 
+--texreplace specified, but the path was not found
+.png
+%08x_%08x_%d_%d
+Unexpected filename format for replacement texture: '%s'
+Could not obtain information for replacement texture: '%s'
+FAILED REQUIRE(tex)
+Could not allocate replacement texture
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\TexCache.cpp(363): 
+Invalid texture format %d, skipping
+(Timing) ERROR: 
+timerGetElapsedTime: invalid timer id %d
+timerGetParam: invalid timer id %d
+FAILED REQUIRE(!queue_.empty())
+Must have set at least one timer before running
+E:\Em\PeoplesPackageParty\masticore\PS1HD\src\Timing.cpp(211): 
+TIMERS
+timer_
+%lu
+#version 440
+#define float4 vec4
+#define float3 vec3
+#define float2 vec2
+#define float2x2 mat2
+#define float3x3 mat3
+#define float4x4 mat4
+#define int2 ivec2
+#define int3 ivec3
+#define int4 ivec4
+#define uint2 uvec2
+#define uint3 uvec3
+#define uint4 uvec4
+#define rsqrt inversesqrt
+#define lerp mix
+#define fmod mod
+#define frac fract
+#define mul(A, B) (B * A)
+
+
+layout(std140, binding = 0) uniform Base {
+	float4x4 projection;
+
+	uint semimode;
+	uint texFlipX;
+	uint texFlipY;
+	bool tex_is_fb;
+
+	uint texWindowMaskX;
+	uint texWindowMaskY;
+	uint texWindowOffsX;
+	uint texWindowOffsY;
+
+	float2 InvTexSize;
+	float2 offset_uv;
+
+	float invScale;
+	float dither;
+	bool textured;
+	bool hasCLUT;
+
+	bool semitrans;
+	bool blending;
+	bool copyback;
+	bool opaqueBlack;
+
+	bool replacement;
+	bool forceSrcAlpha;
+	bool evenodd;
+	bool interlace;
+
+	bool swBlending;
+};
+
+
+layout(std140, binding = 1) uniform Base {
+	float4 gamma;
+	float4 overbright;
+
+	float brightness;
+	float contrast;
+	float pad0;
+	float pad1;
+};
+
+====== %-7s ============================================================
+
+  Emulator Rev : %.10s (%s)
+
+--git-rev-gamedata
+  Gamedata Rev : %.10s
+
+  Built on     : %s
+
+  Built by     : %s
+
+  Build with   : %s
+
+  Build opts   : %s
+
+  Platform     : %s
+
+%s Emulator
+
+conf/package-%s.conf
+(PS1HD) 
+Applying Early Options from command line: 
+revision.conf
+config-title.txt
+--region-dir
+config-region.txt
+--app-dir
+/temp0
+--app-artifacts-dir
+--title-artifacts-dir
+--run-hook-msg
+ps4
+Applying Early Options from %s: 
+.config-local%s%s.txt
+-
+--cwd-dir
+  %s=%s
+--vault-dir
+--gamedata-dir
+--title-dir
+--config-local-dir
+===========================================================================
+msdf/msdf-metrics.txt
+bounds=%f,%f,%f,%f
+advance=%f
+translate=%f,%f
+scale=%f
+range=%f
+codepoint=%i
+(ImGui) ERROR: 
+Failed to create IMGUI font texture
+%.4f
+i18nControlXAccept
+i18nControlOCancel
+#menu_setting_menu
+#menu_setting_pos_size
+i18nGraphicsCelEffects
+i18nGraphicsScanlines
+#menu_control_wheel_panel
+#menu_control_calibration_panel
+#menu_control_reassign
+failed to get size info for %s (from)
+failed to get size info for %s (to)
+]
+[CTRL_SQUARE]
+[CTRL_TRIANGLE]
+[CTRL_CROSS]
+[CTRL_CIRCLE]
+[CTRL_ENTER]
+[CTRL_CANCEL]
+[CTRL_L1]
+[CTRL_R1]
+[CTRL_TOUCHPAD]
+[CTRL_DPADLEFT]
+[CTRL_DPADRIGHT]
+gunCon.png
+neGcon.png
+PS1.png
+DS1.png
+Move.png
+AIM.png
+DS4.png
+ui_ps_circle.png
+ui_ps_cross.png
+ui_ps_square.png
+ui_ps_triangle.png
+ui_ps_l1.png
+ui_ps_r1.png
+ui_ps_touchpad.png
+ui_ps_dpad_left.png
+ui_ps_dpad_right.png
+msdf/array.png
+--has-shown-start-select-help
+imgui_settings.json
+#menu_root_menu
+#menu_help_controls
+#menu_quick_save_menu
+#menu_bookmarks_load
+#menu_bookmarks_load_confirmation
+#menu_bookmarks_save
+#menu_bookmarks_save_confirmation
+#menu_visual_presets
+#menu_visual_presets_preset
+#menu_video_menu
+#menu_video_aspect_ratio
+#menu_graphics
+#menu_graphics_filter
+#menu_graphics_aa
+#menu_graphics_upscale
+#menu_setting_color
+#menu_setting_effect_menu
+#menu_setting_effect_cel
+#menu_setting_effect_arcade
+#menu_general_setting
+#menu_dev
+#menu_confirmation_load
+#menu_confirmation_rewind
+#menu_text_load
+#menu_none
+--clamp-line-thickness-max
+--clamp-line-thickness-min
+i18nSelectRewindPoint
+i18nQuickSaveOptions
+i18nGeneralSettings
+i18nChangeDisc
+i18nVisualPresets
+i18nVideo
+i18nControls
+--image%d
+--imageName%d
+(UI) 
+Enabling MultiDisc
+MultiDisc %d
+i18nDiscNumber
+Number
+MultiDisc %d with name %s
+i18nDiscNumberText
+Text
+%016jx
+Rev: %.8s (%s)
+9911959e2a85fcb4c456ce5381dec5bf5c18858c
+master
+Turbo
+Current Disc = %d
+Swap to Disc:
+%d
+Disc %d is now active.
+PS1HDSNAP
+PS1HD
+Connect USB thumbdrive for import/export:
+ > usb:/%s/PS1HDSNAP/*.bin
+Export Snaps to USB
+Import Snaps from USB
+Refresh snapshot thumbails
+Memcard Import/Export...
+ > usb:/%s/PS1HD/*.mcd
+WARNING: Restart the emulator after importing memorycards.
+Export MemCard to USB
+Import MemCard from USB
+Vram read delay
+Present delay
+Font Spacing Debugger
+Dump Font Advance Code
+rescale[0x%08x] = %f / %0.1f
+
+0x%08x
+%.3f
+Forbidden Icon Test
+Build Info
+--ctlanalog
+CTRL default: force analog
+--sim-analog-pad
+CTRL default: simu analog
+CTRL default: automatic analog
+Toggle force analog mode
+Force analog %s
+ON
+OFF
+Toggle force digital mode
+Force digital %s
+Force Unlock Trophy
+-%d-
+i18nLoadQuickSave
+i18nCreateQuickSave
+i18nQuickSaveTitle
+i18nSettingsTitle
+i18nTouchPadStartSelectHelp
+i18nColorAdjustments
+##ColorEnable
+i18nColorAdjustmentsBrightness
+##color
+i18nColorAdjustmentsContrast
+i18nColorAdjustmentsGamma
+i18nColorAdjustmentsHue
+i18nColorAdjustmentsSaturation
+i18nPostFx
+i18nCelEffect
+i18nScanlines
+i18nVideoFilter
+i18nAntiAliasing
+i18nFilterCubic
+i18nFilterBicubic
+i18nFilterLanczos
+i18nFilterNone
+i18nAntiAliasingNone
+i18nAntiAliasingFxaa
+i18nAntiAliasingCmaa
+##Video filter
+##anti_aliasing
+i18nGraphicsLineThickness
+##cel
+i18nCelEffectsShadingLevel
+i18nCelEffectsSaturation
+i18nCelEffectsBrightness
+i18nCelEffectsOutline
+i18nCelEffectsStrength
+i18nCelEffectsSmooth
+##arcade_enable
+##arcade
+##arcade_blurlevel
+i18nLoadSave
+i18nSaveQuickSave
+i18nEmptySave
+i18nCreateNewSave
+i18nOverwriteSave
+i18nDiscChangeConfirmText
+i18nPressStartToPlay
+i18nPressStart
+i18nPresetDefault
+i18nPresetRetroClassic
+i18nPresetModern
+i18nPresetCustom
+i18nNoUpscale
+i18nMultiplierScale
+Multiplier
+2
+3
+4
+5
+6
+i18nAspectNativeResolution
+i18nAspect1To1
+i18nAspect43To1610
+i18nAspect43To169
+i18nAspectSquarePixels
+i18nAspectWideZoomStretched
+i18nPreset
+i18nVideoAspectRatio
+i18nGraphicsFilter
+i18nGraphicsAntiAliasing
+i18nUpscaleFactor
+(imgui) 
+SaveConfImgui action deferred: write thread is still busy
+settings
+options
+imguiOptionsWrite
+(LoadOptionsImgui) ERROR: 
+%s: Found savedata mount point but settings file is missing or corrupted.
+(LoadOptionsImgui) WARN : 
+%s: json parse failed, err=%s
+--scale
+--gamma
+--brightness
+--contrast
+--hue
+--saturation
+(UserUI) LoadUserSnapshot: from slot=%jd
+E:\Em\PeoplesPackageParty\masticore\libpsemu\loose\src\UserUI\UI.cpp(3363): 
+Attempted to load from an invalid slot. slotNumber=%jd
+PS1
+titleID
+i18nQuickSaveError
+start_select_controls_embedded_ps4.png
+arrow_left.png
+L2.png
+R2.png
+arrow_right.png
+start_select_controls_ps4.png
+display_video_mode
+cubic_A
+mn_B
+mn_C
+display_offset_x
+display_offset_y
+fx_cel_color_step
+fx_cel_saturation
+fx_cel_outline
+fx_cel_strength
+fx_cel_brightness
+fx_smoothing_strength
+fx_fxaa_subpix
+fx_fxaa_threshold
+fx_fxaa_dark_threshold
+enable_fx_smoothing
+enable_fx_interlace
+general_advanced
+general_confirm_rewind
+p
+debug_vram_read_delay
+present_delay
+force_analog
+force_digital
+display_build_information
+imgui_emu_option.json
+null input
+luma_video_filter
+gamma
+saturation
+hue
+contrast
+brightness
+upscaling_factor
+upscaling_aa
+upscaling_line
+fx_arcade_bleed
+fx_arcade_mask
+fx_arcade_scanline_dark
+fx_arcade_scanline_light
+fx_arcade_scanline_opacity
+fx_arcade_blur_level
+fx_arcade_h
+fx_arcade_s
+fx_arcade_b
+fx_arcade_c
+enable_color_shader
+enable_fx_arcade
+enable_fx_cel
+i18nSaveDataTitleApplication
+i18nSaveDataSubTitleApplication
+(Imgui) WARN : 
+%s: save failed.
+Paste these values in gencharmap.py
+Dev
+Collections
+Advanced Menu Options
+Confirm Rewind
+Reset All Settings to Default
+Controls and Peripherals 1
+Controls and Peripherals 2
+Controls and Peripherals 3
+Controls and Peripherals 4
+User Defined
+Cel Shader Options
+While limit
+Dark limit
+Blur None
+Blur 5
+Blur 9
+Blur 13
+Post Blur Brightness
+Post Blur Contrast
+Post Blur Saturation
+Scanline Options
+Color Bleed Opacity
+Mask Opacity
+Scanline Dark Opacity
+Scanline Light Opacity
+Scanline Opacity
+PLAYSTATION1
+DUALSHOCK1
+DUALSHOCK4
+guncon
+neGcon
+PSP
+Light Gun Type
+DUALSHOCK4 Touchpad
+DUALSHOCK4 Motion
+PS Move
+PS Aim
+PS4 Compatible Thrustmaster Racing Wheel
+PS4 Compatible Logitech Racing Wheel
+PS4 Compatible HORI Racing Wheel
+Deadzone X axis
+Deadzone Y axis
+Select a 
+ button (on the Left)
+to assign to a 
+ button (on the Right)
+R3
+L3
+Toggle
+Values
+Touchpad
+Restore
+Setting
+Apply
+Cancel
+Remap
+Long Press
+Short Press
+Save Quick-Save
+Saved
+Slot 1
+Slot 2
+Slot 3
+Slot 4
+Slot 5
+Slot 6
+Slot 7
+Slot 8
+Slot 9
+Slot 10
+Select a Quick-Save
+from the Menu below
+Select a slot
+Disabled
+Enabled
+Are you sure ?
+Press
+Browse
+BROWSE_DOWN
+Browse_UP
+CloseWindow
+CloseWindow2
+OpenWindow
+OpenWindow2
+Slider
+TimelineSlideDown
+TimelineSlideUp
+BROWSE_DOWN_VIB
+Browse_UP_VIB
+CloseWindow_VIB
+OpenWindow_VIB
+Slider_Left_VIB
+Slider_Right_VIB
+TimelineSlideDown_VIB
+TimelineSlideUp_VIB
+SFX/%s.ogg
+(UIMisc) ERROR: 
+SFX file %s does not appear to be in OGG format
+SFX file %s has invalid channels/rate. Has: %d/%d. Needs: %d/%d
+(*no name)
+stack traceback:
+
+	...
+Slnt
+
+	%s:
+%d:
+ in 
+
+	(...tail calls...)
+bad argument #%d (%s)
+calling '%s' on bad self (%s)
+bad argument #%d to '%s' (%s)
+Sl
+%s:%d: 
+%s: %s
+invalid option '%s'
+stack overflow (%s)
+buffer too large
+=stdin
+@%s
+reopen
+object length is not an integer
+%I
+%f
+%s: %p
+too many upvalues
+multiple Lua VMs detected
+function '%s'
+%s '%s'
+main chunk
+function <%s:%d>
+f
+_G.
+light userdata
+%s expected, got %s
+number has no integer representation
+not enough memory for buffer allocation
+LUABOX
+cannot %s %s: %s
+PANIC: unprotected error in call to Lua API (%s)
+
+attempt to %s a %s value%s
+concatenate
+number%s has no integer representation
+attempt to compare two %s values
+attempt to compare %s with %s
+%s:%d: %s
+(*temporary)
+(*vararg)
+=[C]
+C
+=?
+main
+Lua
+hook
+for iterator
+metamethod
+global
+field
+upvalue
+constant
+method
+ (%s '%s')
+attempt to yield across a C-call boundary
+attempt to yield from outside a coroutine
+error in error handling
+C stack overflow
+cannot resume non-suspended coroutine
+binary
+text
+attempt to load a %s chunk (mode is '%s')
+no message
+error in __gc metamethod (%s)
+package
+coroutine
+io
+os
+math
+utf8
+_IO_input
+stdin
+_IO_output
+stdout
+stderr
+close
+flush
+input
+lines
+open
+output
+popen
+read
+tmpfile
+write
+FILE*
+attempt to use a closed file
+standard %s file is closed
+cannot open file '%s' (%s)
+too many arguments
+file is already closed
+%s
+invalid format
+pP
+eE
+rwa
+b
+invalid mode
+'popen' not supported
+closed file
+file
+seek
+setvbuf
+__tostring
+set
+cur
+no
+full
+file (closed)
+file (%p)
+cannot close standard file
+pi
+huge
+maxinteger
+mininteger
+abs
+acos
+asin
+atan
+ceil
+cos
+deg
+exp
+tointeger
+floor
+fmod
+ult
+log
+max
+modf
+rad
+random
+randomseed
+sin
+sqrt
+tan
+zero
+wrong number of arguments
+interval is empty
+interval too large
+integer
+float
+too many %s (limit is %d)
+memory allocation error: block too big
+path
+/app0/lua_include/?.lua;/app0/lua_include/?/init.lua;/hostapp/lua_include/?.lua;/hostapp/lua_include/?/init.lua;/hostapp/lua_include/?.lua;/hostapp/lua_include/?/init.lua;./?.lua;./?/init.lua
+cpath
+/hostapp/lua_include/?.so;/hostapp/lua_include/loadall.so;./?.so
+/
+;
+?
+!
+-
+
+config
+_LOADED
+loaded
+_PRELOAD
+preload
+loadlib
+searchpath
+searchers
+absent
+init
+dynamic libraries not enabled; check your Lua installation
+.
+/
+?
+
+	no file '%s'
+r
+
+	no field package.preload['%s']
+'package.%s' must be a string
+error loading module '%s' from file '%s':
+	%s
+_
+luaopen_%s
+
+	no module '%s' in file '%s'
+'package.searchers' must be a table
+module '%s' not found:%s
+%.14g
+-0123456789
+(null)
+<\%d>
+%p
+%
+invalid option '%%%c' to 'lua_pushfstring'
+.xXnN
+clock
+date
+difftime
+execute
+exit
+getenv
+rename
+setlocale
+time
+tmpname
+%c
+time result cannot be represented in this installation
+*t
+sec
+min
+hour
+day
+month
+year
+wday
+yday
+isdst
+aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ%||EcECExEXEyEYOdOeOHOIOmOMOSOuOUOVOwOWOy
+invalid conversion specifier '%%%s'
+all
+collate
+ctype
+monetary
+numeric
+field '%s' is not an integer
+field '%s' missing in date table
+field '%s' is out-of-bound
+unable to generate a unique filename
+upvalues
+main function
+function at line %d
+too many %s (limit is %d) in %s
+C levels
+cannot use '...' outside a vararg function
+self
+functions
+local variables
+<name> or '...' expected
+unexpected symbol
+function arguments expected
+labels/gotos
+<goto %s> at line %d jumps into the scope of local '%s'
+<%s> at line %d not inside a loop
+no visible label '%s' for <goto> at line %d
+%s expected (to close %s at line %d)
+%s expected
+'=' or 'in' expected
+(for index)
+(for limit)
+(for step)
+(for generator)
+(for state)
+(for control)
+label '%s' already defined on line %d
+syntax error
+not enough memory
+byte
+dump
+find
+gmatch
+gsub
+match
+rep
+reverse
+sub
+packsize
+unable to dump given function
+^$*+?.([%-
+pattern too complex
+missing '[' after '%%f' in pattern
+too many captures
+invalid pattern capture
+malformed pattern (missing arguments to '%%b')
+malformed pattern (ends with '%%')
+malformed pattern (missing ']')
+invalid capture index %%%d
+unfinished capture
+string contains zeros
+invalid option '%%%c' to 'format'
+invalid format (repeated flags)
+invalid format (width or precision too long)
+%a
+0x%llx
+%lld
+value has no literal form
+\%d
+\%03d
+string/function/table expected
+invalid replacement value (a %s)
+invalid use of '%c' in replacement string
+resulting string too large
+integer overflow
+unsigned overflow
+string longer than given size
+string length does not fit in given size
+invalid next option for option 'X'
+format asks for alignment not power of 2
+missing size for format option 'c'
+invalid format option '%c'
+integral size (%d) out of limits [1,%d]
+format result too large
+variable-length format
+data string too short
+too many results
+%d-byte integer does not fit into Lua Integer
+table index is nil
+table index is NaN
+invalid key to 'next'
+table overflow
+concat
+insert
+pack
+unpack
+remove
+move
+sort
+invalid value (%s) at index %d in table for 'concat'
+position out of bounds
+wrong number of arguments to 'insert'
+n
+too many results to unpack
+too many elements to move
+destination wrap around
+array too big
+invalid order function for sorting
+no value
+boolean
+number
+table
+thread
+proto
+__index
+__newindex
+__gc
+__len
+__eq
+__add
+__sub
+__mul
+__mod
+__pow
+__div
+__idiv
+__band
+__bor
+__bxor
+__shl
+__shr
+__unm
+__bnot
+__lt
+__le
+__concat
+__call
+__name
+perform bitwise operation on
+perform arithmetic on
+binary string
+not a
+version mismatch in
+format mismatch in
+corrupted
+int
+size_t
+Instruction
+lua_Integer
+lua_Number
+endianness mismatch in
+float format mismatch in
+truncated
+%s: %s precompiled chunk
+%s size mismatch in
+charpattern
+offset
+codepoint
+char
+len
+codes
+position out of range
+initial position is a continuation byte
+out of range
+string slice too long
+invalid UTF-8 code
+value out of range
+%U
+initial position out of string
+final position out of string
+index
+'__index' chain too long; possible loop
+'__newindex' chain too long; possible loop
+string length overflow
+get length of
+attempt to divide by zero
+attempt to perform 'n%%0'
+'for' limit must be a number
+'for' step must be a number
+'for' initial value must be a number
+^/host/
+%s(%s): %s
+
+vector<bool> too long
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_
+alnum
+alpha
+blank
+cntrl
+d
+digit
+graph
+lower
+punct
+space
+s
+upper
+w
+xdigit
+printf
+(Lua) 
+tostring for argument #%d failed.
+%s%s
+ 
+<error>
+format
+LuaSaveData
+Invalid token unserializing config data: %d
+default
+AppSmall
+%s.lsd
+Loaded Config %s (%jd bytes)
+Table parameter is required
+SaveConfig: data too big. size: %jd, max: %jd
+LuaConfigSave
+Invalid key token unserializing config data : %d
+Invalid value token unserializing config data : %d
+FAILED REQUIRE(false)
+LUA serializeData: invalid key type %d
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\libLuaScript\LuaSaveData.cpp(83): 
+LUA serializeData: invalid value type %d
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\libLuaScript\LuaSaveData.cpp(114): 
+Wrote Config %s (%jd bytes)
+Please increase dynamicallocator alignment to %08jx
+FAILED REQUIRE(0)
+Out of Memory (OOM) in DynamicAllocator '%s', requestSize=%jd
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\Allocator.cpp(129): 
+sceKernelMunmap failed: 0x%08X
+sceKernelReleaseDirectMemory failed: 0x%08X
+Out of Memory (OOM) in LinearAllocator '%s', requestSize=%jd
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\Allocator.cpp(202): 
+sceKernelAllocateDirectMemory('%s', size=%jd, align=%jd) failed: 0x%08X (%s)
+sceKernelMapDirectMemory('%s', size=%jd, align=%jd) failed: 0x%08X (%s)
+(HostMem) Mapped %-10s  @ %p -> %p   (DMEM=%09jx) [%s]
+%7.2fMB
+[skipped] '%s': is a directory, not a file.
+[skipped] '%s': not present.
+[loading] '%s'
+FAILED ASSERT(result)
+Config parse error in %s
+See console output for details.
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\AppConfigParseFile.cpp(23): 
+fopen('%s') failed: file is invalid or inaccessible.
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\AppConfigParseFile.cpp(26): 
+@@_ps4_sdk_version:(0x09508001u):_@@
+uxMsg_SaveState
+uxMsg_SaveStateToMem
+uxMsg_SaveStateForTooling
+uxMsg_TakeScreenshot
+uxMsg_LoadState
+uxMsg_LoadStateUserSlot
+uxMsg_SnapshotSerializeLoadSave
+uxMsg_DeleteStateInMem
+uxMsg_DeleteAfterStateInMem
+uxMsg_StartExec
+uxMsg_StopExec
+uxMsg_StepExec
+uxMsg_Reset
+uxMsg_DebugBreak
+uxMsg_GdbCmdString
+uxMsg_ToolingDisconnect
+uxMsg_TogglePause
+uxMsg_QuitApp
+uxMsg_UnloadScripts
+uxMsg_LoadScripts
+uxMsg_ReloadSettings
+uxMsg_SetSetting
+uxMsg_CpuFlushCache
+uxMsg_ToggleThrottle
+uxMsg_ToggleOriginalTextures
+uxMsg_ToggleTextureVisualizer
+uxMsg_ToggleTextureReload
+uxMsg_ToggleImgui
+uxMsg_ImguiChar
+uxMsg_PadButtonClick
+uxMsg_fputsAfterStop
+uxMsg_PopupMessage
+uxMsg_RefreshSnapshotThumbnails
+uxMsg_GpuClearVram
+Emulation stopped due to Lua Error: %s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\AppEmuExecControl.cpp(163): 
+EmuMachineMessage
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\AppEmuExecControl.cpp(441): 
+StopReason_UserDialog mismatch. Thread is trying to start emulator but tls_user_dialog_stop_count=0
+(AppEmu) 
+STOPPED   reason=%04X
+RUNNING
+(EmuMessage) %-20s u64=%-9s string='%s'
+
+Unknown ID=%d
+0x%04jX
+list<T> too long
+--snapshot-dir
+savestates
+--screenshot-dir
+screenshots
+--assets-dir
+assets
+common
+Could not find file '%s'
+ > tried: %s
+ > tried: %s
+
+FAILED REQUIRE(alignment >= 1)
+Invalid alignment %jd
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\BlockAllocator.cpp(12): 
+FAILED REQUIRE(mem != (T)-1)
+Failed to allocate %jd bytes (top=%d)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\BlockAllocator.cpp(65): 
+Could not locate block to deallocate with address %08jx
+
+%s 
+--savedata-mode
+null
+(NetworkFeature) ERROR: 
+sceUserServiceGetInitialUser failed, code=0x%x
+Couldn't load NP Toolkit V2. '/app0/sce_module/libSceNpToolkit2.prx' does not exist.
+sceSysmoduleLoadModule(SCE_SYSMODULE_NP_TOOLKIT2) failed, code=0x%x
+(NetworkFeature) WARN : 
+Toolkit already initialized
+Couldn't initialize NP Toolkit 0x%x
+--ps4-trophies
+(AppHost) Trophy support is forcibly disabled via config.
+(TrophyPS4) ERROR: 
+NpToolkit2::Trophy::registerTrophyPack() failed, code=0x%x
+Trophy
+(TrophyPS4) 
+Received callback: trophyRegisterTrophyPack
+Trophy setup failed: NpTitle.dat not found
+Trophy setup failed: trophy00.dat not found
+Trophy setup failed with error 0x%x
+SUCCESS
+PLATINUM
+ERROR
+Received callback: trophyUnlock code=%08x (%s)
+Unhandled event %d
+(Trophy) 
+Unlock trophy #%d%s
+
+ (trophy backend disabled)
+Trophy unlock failed, code=0x%x
+--trophies
+(AppSetting) Config option --trophies has been renamed to --ps4-trophies. Please update your configs.
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\RunOnceUtils.cpp(43): 
+Recursion detected at ATOMIC_INIT_BEGIN.
+%4d/%02d/%02d %d:%02d
+%02d/%02d/%4d %d:%02d
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceCommonDialogs.cpp(32): 
+sceCommonDialogInitialize failed with code=%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceCommonDialogs.cpp(43): 
+sceSysmoduleLoadModule(SCE_SYSMODULE_MESSAGE_DIALOG) failed with code=%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceCommonDialogs.cpp(57): 
+SceCommonDialog: Got 'none' status result waiting for dialog finish. This usually means wrong UpdateStatus() function was called.
+%s is blocked, code 0x%08x (%s)
+
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceCommonDialogs.cpp(179): 
+sceMsgDialogOpen failed with code 0x%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceCommonDialogs.cpp(80): 
+CommonDialogGetResult failed with code 0x%08x (%s)
+SonyMsgDialogUserError('%s')
+/app0/eboot.bin
+SCE_SYSMODULE_ERROR_INVALID_VALUE
+SCE_SYSMODULE_ERROR_FATAL
+SCE_SYSMODULE_ERROR_UNLOADED
+SCE_KERNEL_ERROR_EPERM
+SCE_KERNEL_ERROR_ENOENT
+SCE_KERNEL_ERROR_ESRCH
+SCE_KERNEL_ERROR_EINTR
+SCE_KERNEL_ERROR_EIO
+SCE_KERNEL_ERROR_ENXIO
+SCE_KERNEL_ERROR_E2BIG
+SCE_KERNEL_ERROR_ENOEXEC
+SCE_KERNEL_ERROR_EBADF
+SCE_KERNEL_ERROR_ECHILD
+SCE_KERNEL_ERROR_EDEADLK
+SCE_KERNEL_ERROR_ENOMEM
+SCE_KERNEL_ERROR_EACCES
+SCE_KERNEL_ERROR_EFAULT
+SCE_KERNEL_ERROR_ENOTBLK
+SCE_KERNEL_ERROR_EBUSY
+SCE_KERNEL_ERROR_EEXIST
+SCE_KERNEL_ERROR_EXDEV
+SCE_KERNEL_ERROR_ENODEV
+SCE_KERNEL_ERROR_ENOTDIR
+SCE_KERNEL_ERROR_EISDIR
+SCE_KERNEL_ERROR_EINVAL
+SCE_KERNEL_ERROR_ENFILE
+SCE_KERNEL_ERROR_EMFILE
+SCE_KERNEL_ERROR_ENOTTY
+SCE_KERNEL_ERROR_ETXTBSY
+SCE_KERNEL_ERROR_EFBIG
+SCE_KERNEL_ERROR_ENOSPC
+SCE_KERNEL_ERROR_ESPIPE
+SCE_KERNEL_ERROR_EROFS
+SCE_KERNEL_ERROR_EMLINK
+SCE_KERNEL_ERROR_EPIPE
+SCE_KERNEL_ERROR_EDOM
+SCE_KERNEL_ERROR_ERANGE
+SCE_KERNEL_ERROR_EWOULDBLOCK
+SCE_KERNEL_ERROR_EINPROGRESS
+SCE_KERNEL_ERROR_EALREADY
+SCE_KERNEL_ERROR_ENOTSOCK
+SCE_KERNEL_ERROR_EDESTADDRREQ
+SCE_KERNEL_ERROR_EMSGSIZE
+SCE_KERNEL_ERROR_EPROTOTYPE
+SCE_KERNEL_ERROR_ENOPROTOOPT
+SCE_KERNEL_ERROR_EPROTONOSUPPORT
+SCE_KERNEL_ERROR_ESOCKTNOSUPPORT
+SCE_KERNEL_ERROR_EOPNOTSUPP
+SCE_KERNEL_ERROR_EPFNOSUPPORT
+SCE_KERNEL_ERROR_EAFNOSUPPORT
+SCE_KERNEL_ERROR_EADDRINUSE
+SCE_KERNEL_ERROR_EADDRNOTAVAIL
+SCE_KERNEL_ERROR_ENETDOWN
+SCE_KERNEL_ERROR_ENETUNREACH
+SCE_KERNEL_ERROR_ENETRESET
+SCE_KERNEL_ERROR_ECONNABORTED
+SCE_KERNEL_ERROR_ECONNRESET
+SCE_KERNEL_ERROR_ENOBUFS
+SCE_KERNEL_ERROR_EISCONN
+SCE_KERNEL_ERROR_ENOTCONN
+SCE_KERNEL_ERROR_ESHUTDOWN
+SCE_KERNEL_ERROR_ETOOMANYREFS
+SCE_KERNEL_ERROR_ETIMEDOUT
+SCE_KERNEL_ERROR_ECONNREFUSED
+SCE_KERNEL_ERROR_ELOOP
+SCE_KERNEL_ERROR_ENAMETOOLONG
+SCE_KERNEL_ERROR_EHOSTDOWN
+SCE_KERNEL_ERROR_EHOSTUNREACH
+SCE_KERNEL_ERROR_ENOTEMPTY
+SCE_KERNEL_ERROR_EPROCLIM
+SCE_KERNEL_ERROR_EUSERS
+SCE_KERNEL_ERROR_EDQUOT
+SCE_KERNEL_ERROR_ESTALE
+SCE_KERNEL_ERROR_EREMOTE
+SCE_KERNEL_ERROR_EBADRPC
+SCE_KERNEL_ERROR_ERPCMISMATCH
+SCE_KERNEL_ERROR_EPROGUNAVAIL
+SCE_KERNEL_ERROR_EPROGMISMATCH
+SCE_KERNEL_ERROR_EPROCUNAVAIL
+SCE_KERNEL_ERROR_ENOLCK
+SCE_KERNEL_ERROR_ENOSYS
+SCE_KERNEL_ERROR_EFTYPE
+SCE_KERNEL_ERROR_EAUTH
+SCE_KERNEL_ERROR_ENEEDAUTH
+SCE_KERNEL_ERROR_EIDRM
+SCE_KERNEL_ERROR_ENOMSG
+SCE_KERNEL_ERROR_EOVERFLOW
+SCE_KERNEL_ERROR_ECANCELED
+SCE_KERNEL_ERROR_EILSEQ
+SCE_KERNEL_ERROR_ENOATTR
+SCE_KERNEL_ERROR_EDOOFUS
+SCE_KERNEL_ERROR_EBADMSG
+SCE_KERNEL_ERROR_EMULTIHOP
+SCE_KERNEL_ERROR_ENOLINK
+SCE_KERNEL_ERROR_EPROTO
+SCE_KERNEL_ERROR_ENOTCAPABLE
+SCE_KERNEL_ERROR_ECAPMODE
+SCE_KERNEL_ERROR_ENOBLK
+SCE_KERNEL_ERROR_EICV
+SCE_KERNEL_ERROR_ENOPLAYGOENT
+SCE_KERNEL_ERROR_EREVOKE
+SCE_KERNEL_ERROR_ESDKVERSION
+SCE_KERNEL_ERROR_ESTART
+SCE_KERNEL_ERROR_ESTOP
+SCE_USER_SERVICE_ERROR_INTERNAL
+SCE_USER_SERVICE_ERROR_NOT_INITIALIZED
+SCE_USER_SERVICE_ERROR_ALREADY_INITIALIZED
+SCE_USER_SERVICE_ERROR_NO_MEMORY
+SCE_USER_SERVICE_ERROR_INVALID_ARGUMENT
+SCE_USER_SERVICE_ERROR_OPERATION_NOT_SUPPORTED
+SCE_USER_SERVICE_ERROR_NO_EVENT
+SCE_USER_SERVICE_ERROR_NOT_LOGGED_IN
+SCE_USER_SERVICE_ERROR_BUFFER_TOO_SHORT
+SCE_SAVE_DATA_ERROR_PARAMETER
+SCE_SAVE_DATA_ERROR_NOT_INITIALIZED
+SCE_SAVE_DATA_ERROR_OUT_OF_MEMORY
+SCE_SAVE_DATA_ERROR_BUSY
+SCE_SAVE_DATA_ERROR_NOT_MOUNTED
+SCE_SAVE_DATA_ERROR_INTERNAL
+SCE_SAVE_DATA_ERROR_FINGERPRINT_MISMATCH
+SCE_SAVE_DATA_ERROR_EXISTS
+SCE_SAVE_DATA_ERROR_NOT_FOUND
+SCE_SAVE_DATA_ERROR_NO_SPACE_FS
+SCE_SAVE_DATA_ERROR_MOUNT_FULL
+SCE_SAVE_DATA_ERROR_BAD_MOUNTED
+SCE_SAVE_DATA_ERROR_FILE_NOT_FOUND
+SCE_SAVE_DATA_ERROR_BROKEN
+SCE_COMMON_DIALOG_ERROR_NOT_SYSTEM_INITIALIZED
+SCE_COMMON_DIALOG_ERROR_ALREADY_SYSTEM_INITIALIZED
+SCE_COMMON_DIALOG_ERROR_NOT_INITIALIZED
+SCE_COMMON_DIALOG_ERROR_ALREADY_INITIALIZED
+SCE_COMMON_DIALOG_ERROR_NOT_FINISHED
+SCE_COMMON_DIALOG_ERROR_INVALID_STATE
+SCE_COMMON_DIALOG_ERROR_RESULT_NONE
+SCE_COMMON_DIALOG_ERROR_BUSY
+SCE_COMMON_DIALOG_ERROR_OUT_OF_MEMORY
+SCE_COMMON_DIALOG_ERROR_PARAM_INVALID
+SCE_COMMON_DIALOG_ERROR_NOT_RUNNING
+SCE_COMMON_DIALOG_ERROR_ALREADY_CLOSE
+SCE_COMMON_DIALOG_ERROR_ARG_NULL
+SCE_COMMON_DIALOG_ERROR_UNEXPECTED_FATAL
+SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED
+SCE_COMMON_DIALOG_ERROR_INHIBIT_SHAREPLAY_CLIENT
+SCE_NP_ERROR_ALREADY_INITIALIZED
+SCE_NP_ERROR_NOT_INITIALIZED
+SCE_NP_ERROR_INVALID_ARGUMENT
+SCE_NP_ERROR_UNKNOWN_PLATFORM_TYPE
+SCE_NP_ERROR_OUT_OF_MEMORY
+SCE_NP_ERROR_SIGNED_OUT
+SCE_NP_ERROR_USER_NOT_FOUND
+SCE_NP_ERROR_CALLBACK_ALREADY_REGISTERED
+SCE_NP_ERROR_CALLBACK_NOT_REGISTERED
+SCE_NP_ERROR_NOT_SIGNED_UP
+SCE_NP_ERROR_AGE_RESTRICTION
+SCE_NP_ERROR_LOGOUT
+SCE_NP_ERROR_LATEST_SYSTEM_SOFTWARE_EXIST
+SCE_NP_ERROR_LATEST_SYSTEM_SOFTWARE_EXIST_FOR_TITLE
+SCE_NP_ERROR_LATEST_PATCH_PKG_EXIST
+SCE_NP_ERROR_LATEST_PATCH_PKG_DOWNLOADED
+SCE_NP_ERROR_INVALID_SIZE
+SCE_NP_ERROR_ABORTED
+SCE_NP_ERROR_REQUEST_MAX
+SCE_NP_ERROR_REQUEST_NOT_FOUND
+SCE_NP_ERROR_INVALID_ID
+SCE_NP_ERROR_NP_TITLE_DAT_NOT_FOUND
+SCE_NP_ERROR_INCONSISTENT_NP_TITLE_ID
+SCE_NP_ERROR_PATCH_NOT_CHECKED
+SCE_NP_ERROR_TITLE_IS_BANNED
+SCE_NP_ERROR_TIMEOUT
+SCE_NP_ERROR_TITLE_ID_IN_PARAM_SFO_NOT_MATCHED_TO_NP_TITLE_ID
+SCE_NP_ERROR_TITLE_ID_IN_PARAM_SFO_NOT_EXIST
+SCE_NP_ERROR_CALLBACK_MAX
+SCE_NP_ERROR_INVALID_NP_TITLE_ID
+SCE_NP_ERROR_ONLINE_ID_CHANGED
+SCE_NP_ERROR_TOO_LARGE_TICKET
+SCE_NP_AUTH_ERROR_INVALID_ARGUMENT
+SCE_NP_AUTH_ERROR_INVALID_SIZE
+SCE_NP_AUTH_ERROR_OUT_OF_MEMORY
+SCE_NP_AUTH_ERROR_ABORTED
+SCE_NP_AUTH_ERROR_REQUEST_MAX
+SCE_NP_AUTH_ERROR_REQUEST_NOT_FOUND
+SCE_NP_AUTH_ERROR_INVALID_ID
+SCE_NP_AUTH_ERROR_NO_TOKEN_RECEIVED
+SCE_NP_AUTH_ERROR_SERVICE_END
+SCE_NP_AUTH_ERROR_SERVICE_DOWN
+SCE_NP_AUTH_ERROR_SERVICE_BUSY
+SCE_NP_AUTH_ERROR_SERVER_MAINTENANCE
+SCE_NP_AUTH_ERROR_S_INVALID_DATA_LENGTH
+SCE_NP_AUTH_ERROR_S_INVALID_USER_AGENT
+SCE_NP_AUTH_ERROR_S_INVALID_VERSION
+SCE_NP_AUTH_ERROR_S_INVALID_SERVICE_ID
+SCE_NP_AUTH_ERROR_S_INVALID_CREDENTIAL
+SCE_NP_AUTH_ERROR_S_INVALID_ENTITLEMENT_ID
+SCE_NP_AUTH_ERROR_S_INVALID_CONSUMED_COUNT
+SCE_NP_AUTH_ERROR_INVALID_CONSOLE_ID
+SCE_NP_AUTH_ERROR_CONSOLE_ID_SUSPENDED
+SCE_NP_AUTH_ERROR_ACCOUNT_CLOSED
+SCE_NP_AUTH_ERROR_ACCOUNT_SUSPENDED
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_EULA
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT1
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT2
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT3
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT4
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT5
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT6
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT7
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT8
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT9
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT10
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT11
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT12
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT13
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT14
+SCE_NP_AUTH_ERROR_ACCOUNT_RENEW_ACCOUNT15
+SCE_NP_AUTH_ERROR_SUB_ACCOUNT_RENEW_EULA
+SCE_NP_AUTH_ERROR_UNKNOWN
+SCE_NP_UTIL_ERROR_INVALID_ARGUMENT
+SCE_NP_UTIL_ERROR_INSUFFICIENT
+SCE_NP_UTIL_ERROR_PARSER_FAILED
+SCE_NP_UTIL_ERROR_INVALID_PROTOCOL_ID
+SCE_NP_UTIL_ERROR_INVALID_NP_ID
+SCE_NP_UTIL_ERROR_INVALID_NP_ENV
+SCE_NP_UTIL_ERROR_INVALID_CHARACTER
+SCE_NP_UTIL_ERROR_NOT_MATCH
+SCE_NP_UTIL_ERROR_INVALID_TITLEID
+SCE_NP_UTIL_ERROR_UNKNOWN
+SCE_NP_COMMUNITY_ERROR_ALREADY_INITIALIZED
+SCE_NP_COMMUNITY_ERROR_NOT_INITIALIZED
+SCE_NP_COMMUNITY_ERROR_OUT_OF_MEMORY
+SCE_NP_COMMUNITY_ERROR_INVALID_ARGUMENT
+SCE_NP_COMMUNITY_ERROR_NO_LOGIN
+SCE_NP_COMMUNITY_ERROR_TOO_MANY_OBJECTS
+SCE_NP_COMMUNITY_ERROR_ABORTED
+SCE_NP_COMMUNITY_ERROR_BAD_RESPONSE
+SCE_NP_COMMUNITY_ERROR_BODY_TOO_LARGE
+SCE_NP_COMMUNITY_ERROR_HTTP_SERVER
+SCE_NP_COMMUNITY_ERROR_INVALID_SIGNATURE
+SCE_NP_COMMUNITY_ERROR_INSUFFICIENT_ARGUMENT
+SCE_NP_COMMUNITY_ERROR_UNKNOWN_TYPE
+SCE_NP_COMMUNITY_ERROR_INVALID_ID
+SCE_NP_COMMUNITY_ERROR_INVALID_ONLINE_ID
+SCE_NP_COMMUNITY_ERROR_INVALID_TYPE
+SCE_NP_COMMUNITY_ERROR_TRANSACTION_ALREADY_END
+SCE_NP_COMMUNITY_ERROR_INVALID_PARTITION
+SCE_NP_COMMUNITY_ERROR_INVALID_ALIGNMENT
+SCE_NP_COMMUNITY_ERROR_CLIENT_HANDLE_ALREADY_EXISTS
+SCE_NP_COMMUNITY_ERROR_NO_RESOURCE
+SCE_NP_COMMUNITY_ERROR_REQUEST_BEFORE_END
+SCE_NP_COMMUNITY_ERROR_TOO_MANY_SLOTID
+SCE_NP_COMMUNITY_ERROR_TOO_MANY_NPID
+SCE_NP_COMMUNITY_ERROR_SCORE_INVALID_SAVEDATA_OWNER
+SCE_NP_COMMUNITY_ERROR_TUS_INVALID_SAVEDATA_OWNER
+SCE_NP_COMMUNITY_ERROR_GHOST_SERVER_RETURN_INVALID_STATUS_CODE
+SCE_NP_COMMUNITY_ERROR_UBS_ONLINE_ID_IN_XML_CREATED_PAST_IS_DIFFERENT_FROM_CURRENT
+SCE_NP_COMMUNITY_SERVER_ERROR_BAD_REQUEST
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_TICKET
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_SIGNATURE
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_NPID
+SCE_NP_COMMUNITY_SERVER_ERROR_FORBIDDEN
+SCE_NP_COMMUNITY_SERVER_ERROR_INTERNAL_SERVER_ERROR
+SCE_NP_COMMUNITY_SERVER_ERROR_VERSION_NOT_SUPPORTED
+SCE_NP_COMMUNITY_SERVER_ERROR_SERVICE_UNAVAILABLE
+SCE_NP_COMMUNITY_SERVER_ERROR_PLAYER_BANNED
+SCE_NP_COMMUNITY_SERVER_ERROR_CENSORED
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_RECORD_FORBIDDEN
+SCE_NP_COMMUNITY_SERVER_ERROR_USER_PROFILE_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_UPLOADER_DATA_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_QUOTA_MASTER_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_TITLE_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_BLACKLISTED_USER_ID
+SCE_NP_COMMUNITY_SERVER_ERROR_GAME_RANKING_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_STORE_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_NOT_BEST_SCORE
+SCE_NP_COMMUNITY_SERVER_ERROR_LATEST_UPDATE_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_BOARD_MASTER_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_GAME_DATA_MASTER_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ANTICHEAT_DATA
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_LARGE_DATA
+SCE_NP_COMMUNITY_SERVER_ERROR_NO_SUCH_USER_NPID
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ENVIRONMENT
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ONLINE_NAME_CHARACTER
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ONLINE_NAME_LENGTH
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ABOUT_ME_CHARACTER
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_ABOUT_ME_LENGTH
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_SCORE
+SCE_NP_COMMUNITY_SERVER_ERROR_OVER_THE_RANKING_LIMIT
+SCE_NP_COMMUNITY_SERVER_ERROR_FAIL_TO_CREATE_SIGNATURE
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_MASTER_INFO_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_OVER_THE_GAME_DATA_LIMIT
+SCE_NP_COMMUNITY_SERVER_ERROR_SELF_DATA_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_USER_NOT_ASSIGNED
+SCE_NP_COMMUNITY_SERVER_ERROR_GAME_DATA_ALREADY_EXISTS
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_MANY_RESULTS
+SCE_NP_COMMUNITY_SERVER_ERROR_NOT_RECORDABLE_VERSION
+SCE_NP_COMMUNITY_SERVER_ERROR_USER_STORAGE_TITLE_MASTER_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_INVALID_VIRTUAL_USER
+SCE_NP_COMMUNITY_SERVER_ERROR_USER_STORAGE_DATA_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_NON_PLUS_MEMBER
+SCE_NP_COMMUNITY_SERVER_ERROR_UNMATCH_SEQUENCE
+SCE_NP_COMMUNITY_SERVER_ERROR_SAVEDATA_NOT_FOUND
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_MANY_SAVEDATA_FILES
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_MUCH_TOTAL_SAVEDATA_SIZE
+SCE_NP_COMMUNITY_SERVER_ERROR_NOT_YET_DOWNLOADABLE
+SCE_NP_COMMUNITY_SERVER_ERROR_BLACKLISTED_TITLE
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_LARGE_ICONDATA
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_LARGE_SAVEDATA
+SCE_NP_COMMUNITY_SERVER_ERROR_UNMATCH_SIGNATURE
+SCE_NP_COMMUNITY_SERVER_ERROR_UNMATCH_MD5SUM
+SCE_NP_COMMUNITY_SERVER_ERROR_TOO_MUCH_SAVEDATA_SIZE
+SCE_NP_COMMUNITY_SERVER_ERROR_RECORD_DATE_IS_NEWER_THAN_COMP_DATE
+SCE_NP_COMMUNITY_SERVER_ERROR_CONDITIONS_NOT_SATISFIED
+SCE_NP_COMMUNITY_SERVER_ERROR_UNSUPPORTED_PLATFORM
+SCE_NP_COMMUNITY_SERVER_ERROR_EXPIRED_SIGNATURE
+SCE_NP_COMMUNITY_SERVER_ERROR_SAVEDATA_UPDATED
+SCE_NP_COMMUNITY_SERVER_ERROR_MATCHING_BEFORE_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_MATCHING_END_OF_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_MATCHING_MAINTENANCE
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_BEFORE_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_END_OF_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_RANKING_MAINTENANCE
+SCE_NP_COMMUNITY_SERVER_ERROR_NO_SUCH_TITLE
+SCE_NP_COMMUNITY_SERVER_ERROR_TITLE_USER_STORAGE_BEFORE_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_TITLE_USER_STORAGE_END_OF_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_TITLE_USER_STORAGE_MAINTENANCE
+SCE_NP_COMMUNITY_SERVER_ERROR_FSR_BEFORE_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_FSR_END_OF_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_FSR_MAINTENANCE
+SCE_NP_COMMUNITY_SERVER_ERROR_UBS_BEFORE_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_UBS_END_OF_SERVICE
+SCE_NP_COMMUNITY_SERVER_ERROR_UBS_MAINTENANCE
+SCE_NP_COMMUNITY_SERVER_ERROR_BASIC_BLACKLISTED_USER_ID
+SCE_NP_COMMUNITY_SERVER_ERROR_UNSPECIFIED
+SCE_NP_MATCHING2_ERROR_OUT_OF_MEMORY
+SCE_NP_MATCHING2_ERROR_ALREADY_INITIALIZED
+SCE_NP_MATCHING2_ERROR_NOT_INITIALIZED
+SCE_NP_MATCHING2_ERROR_CONTEXT_MAX
+SCE_NP_MATCHING2_ERROR_CONTEXT_ALREADY_EXISTS
+SCE_NP_MATCHING2_ERROR_CONTEXT_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_CONTEXT_ALREADY_STARTED
+SCE_NP_MATCHING2_ERROR_CONTEXT_NOT_STARTED
+SCE_NP_MATCHING2_ERROR_SERVER_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_INVALID_ARGUMENT
+SCE_NP_MATCHING2_ERROR_INVALID_CONTEXT_ID
+SCE_NP_MATCHING2_ERROR_INVALID_SERVER_ID
+SCE_NP_MATCHING2_ERROR_INVALID_WORLD_ID
+SCE_NP_MATCHING2_ERROR_INVALID_LOBBY_ID
+SCE_NP_MATCHING2_ERROR_INVALID_ROOM_ID
+SCE_NP_MATCHING2_ERROR_INVALID_MEMBER_ID
+SCE_NP_MATCHING2_ERROR_INVALID_ATTRIBUTE_ID
+SCE_NP_MATCHING2_ERROR_INVALID_CASTTYPE
+SCE_NP_MATCHING2_ERROR_INVALID_SORT_METHOD
+SCE_NP_MATCHING2_ERROR_INVALID_MAX_SLOT
+SCE_NP_MATCHING2_ERROR_INVALID_MATCHING_SPACE
+SCE_NP_MATCHING2_ERROR_INVALID_BLOCK_KICK_FLAG
+SCE_NP_MATCHING2_ERROR_INVALID_MESSAGE_TARGET
+SCE_NP_MATCHING2_ERROR_RANGE_FILTER_MAX
+SCE_NP_MATCHING2_ERROR_INSUFFICIENT_BUFFER
+SCE_NP_MATCHING2_ERROR_DESTINATION_DISAPPEARED
+SCE_NP_MATCHING2_ERROR_REQUEST_TIMEOUT
+SCE_NP_MATCHING2_ERROR_INVALID_ALIGNMENT
+SCE_NP_MATCHING2_ERROR_CONNECTION_CLOSED_BY_SERVER
+SCE_NP_MATCHING2_ERROR_SSL_VERIFY_FAILED
+SCE_NP_MATCHING2_ERROR_SSL_HANDSHAKE
+SCE_NP_MATCHING2_ERROR_SSL_SEND
+SCE_NP_MATCHING2_ERROR_SSL_RECV
+SCE_NP_MATCHING2_ERROR_JOINED_SESSION_MAX
+SCE_NP_MATCHING2_ERROR_ALREADY_JOINED
+SCE_NP_MATCHING2_ERROR_INVALID_SESSION_TYPE
+SCE_NP_MATCHING2_ERROR_NP_SIGNED_OUT
+SCE_NP_MATCHING2_ERROR_BUSY
+SCE_NP_MATCHING2_ERROR_SERVER_NOT_AVAILABLE
+SCE_NP_MATCHING2_ERROR_NOT_ALLOWED
+SCE_NP_MATCHING2_ERROR_ABORTED
+SCE_NP_MATCHING2_ERROR_REQUEST_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_SESSION_DESTROYED
+SCE_NP_MATCHING2_ERROR_CONTEXT_STOPPED
+SCE_NP_MATCHING2_ERROR_INVALID_REQUEST_PARAMETER
+SCE_NP_MATCHING2_ERROR_NOT_NP_SIGN_IN
+SCE_NP_MATCHING2_ERROR_ROOM_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_ROOM_MEMBER_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_LOBBY_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_LOBBY_MEMBER_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_KEEPALIVE_TIMEOUT
+SCE_NP_MATCHING2_ERROR_TIMEOUT_TOO_SHORT
+SCE_NP_MATCHING2_ERROR_TIMEDOUT
+SCE_NP_MATCHING2_ERROR_INVALID_SLOTGROUP
+SCE_NP_MATCHING2_ERROR_INVALID_ATTRIBUTE_SIZE
+SCE_NP_MATCHING2_ERROR_CANNOT_ABORT
+SCE_NP_MATCHING2_ERROR_SESSION_NOT_FOUND
+SCE_NP_MATCHING2_ERROR_INVALID_CONTEXT
+SCE_NP_MATCHING2_SERVER_ERROR_BAD_REQUEST
+SCE_NP_MATCHING2_SERVER_ERROR_SERVICE_UNAVAILABLE
+SCE_NP_MATCHING2_SERVER_ERROR_BUSY
+SCE_NP_MATCHING2_SERVER_ERROR_END_OF_SERVICE
+SCE_NP_MATCHING2_SERVER_ERROR_INTERNAL_SERVER_ERROR
+SCE_NP_MATCHING2_SERVER_ERROR_PLAYER_BANNED
+SCE_NP_MATCHING2_SERVER_ERROR_FORBIDDEN
+SCE_NP_MATCHING2_SERVER_ERROR_BLOCKED
+SCE_NP_MATCHING2_SERVER_ERROR_UNSUPPORTED_NP_ENV
+SCE_NP_MATCHING2_SERVER_ERROR_INVALID_TICKET
+SCE_NP_MATCHING2_SERVER_ERROR_INVALID_SIGNATURE
+SCE_NP_MATCHING2_SERVER_ERROR_EXPIRED_TICKET
+SCE_NP_MATCHING2_SERVER_ERROR_ENTITLEMENT_REQUIRED
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_CONTEXT
+SCE_NP_MATCHING2_SERVER_ERROR_CLOSED
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_TITLE
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_WORLD
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_LOBBY
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_ROOM
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_LOBBY_INSTANCE
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_ROOM_INSTANCE
+SCE_NP_MATCHING2_SERVER_ERROR_PASSWORD_MISMATCH
+SCE_NP_MATCHING2_SERVER_ERROR_LOBBY_FULL
+SCE_NP_MATCHING2_SERVER_ERROR_ROOM_FULL
+SCE_NP_MATCHING2_SERVER_ERROR_GROUP_FULL
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_USER
+SCE_NP_MATCHING2_SERVER_ERROR_GROUP_PASSWORD_MISMATCH
+SCE_NP_MATCHING2_SERVER_ERROR_TITLE_PASSPHRASE_MISMATCH
+SCE_NP_MATCHING2_SERVER_ERROR_LOBBY_ALREADY_EXIST
+SCE_NP_MATCHING2_SERVER_ERROR_ROOM_ALREADY_EXIST
+SCE_NP_MATCHING2_SERVER_ERROR_CONSOLE_BANNED
+SCE_NP_MATCHING2_SERVER_ERROR_NO_ROOMGROUP
+SCE_NP_MATCHING2_SERVER_ERROR_NO_SUCH_GROUP
+SCE_NP_MATCHING2_SERVER_ERROR_NO_PASSWORD
+SCE_NP_MATCHING2_SERVER_ERROR_INVALID_GROUP_SLOT_NUM
+SCE_NP_MATCHING2_SERVER_ERROR_INVALID_PASSWORD_SLOT_MASK
+SCE_NP_MATCHING2_SERVER_ERROR_DUPLICATE_GROUP_LABEL
+SCE_NP_MATCHING2_SERVER_ERROR_REQUEST_OVERFLOW
+SCE_NP_MATCHING2_SERVER_ERROR_ALREADY_JOINED
+SCE_NP_MATCHING2_SERVER_ERROR_NAT_TYPE_MISMATCH
+SCE_NP_MATCHING2_SERVER_ERROR_ROOM_INCONSISTENCY
+SCE_NP_MATCHING2_SERVER_ERROR_BLOCKED_USER_IN_ROOM
+SCE_NP_MATCHING2_SIGNALING_ERROR_NOT_INITIALIZED
+SCE_NP_MATCHING2_SIGNALING_ERROR_ALREADY_INITIALIZED
+SCE_NP_MATCHING2_SIGNALING_ERROR_OUT_OF_MEMORY
+SCE_NP_MATCHING2_SIGNALING_ERROR_CTXID_NOT_AVAILABLE
+SCE_NP_MATCHING2_SIGNALING_ERROR_CTX_NOT_FOUND
+SCE_NP_MATCHING2_SIGNALING_ERROR_REQID_NOT_AVAILABLE
+SCE_NP_MATCHING2_SIGNALING_ERROR_REQ_NOT_FOUND
+SCE_NP_MATCHING2_SIGNALING_ERROR_PARSER_CREATE_FAILED
+SCE_NP_MATCHING2_SIGNALING_ERROR_PARSER_FAILED
+SCE_NP_MATCHING2_SIGNALING_ERROR_INVALID_NAMESPACE
+SCE_NP_MATCHING2_SIGNALING_ERROR_NETINFO_NOT_AVAILABLE
+SCE_NP_MATCHING2_SIGNALING_ERROR_PEER_NOT_RESPONDING
+SCE_NP_MATCHING2_SIGNALING_ERROR_CONNID_NOT_AVAILABLE
+SCE_NP_MATCHING2_SIGNALING_ERROR_CONN_NOT_FOUND
+SCE_NP_MATCHING2_SIGNALING_ERROR_PEER_UNREACHABLE
+SCE_NP_MATCHING2_SIGNALING_ERROR_TERMINATED_BY_PEER
+SCE_NP_MATCHING2_SIGNALING_ERROR_TIMEOUT
+SCE_NP_MATCHING2_SIGNALING_ERROR_CTX_MAX
+SCE_NP_MATCHING2_SIGNALING_ERROR_RESULT_NOT_FOUND
+SCE_NP_MATCHING2_SIGNALING_ERROR_CONN_IN_PROGRESS
+SCE_NP_MATCHING2_SIGNALING_ERROR_INVALID_ARGUMENT
+SCE_NP_MATCHING2_SIGNALING_ERROR_OWN_NP_ID
+SCE_NP_MATCHING2_SIGNALING_ERROR_TOO_MANY_CONN
+SCE_NP_MATCHING2_SIGNALING_ERROR_TERMINATED_BY_MYSELF
+SCE_NP_MATCHING2_SIGNALING_ERROR_MATCHING2_PEER_NOT_FOUND
+SCE_NP_MATCHING2_SIGNALING_ERROR_OWN_PEER_ADDRESS
+SCE_NP_BANDWIDTH_TEST_ERROR_NOT_INITIALIZED
+SCE_NP_BANDWIDTH_TEST_ERROR_BAD_RESPONSE
+SCE_NP_BANDWIDTH_TEST_ERROR_OUT_OF_MEMORY
+SCE_NP_BANDWIDTH_TEST_ERROR_INVALID_ARGUMENT
+SCE_NP_BANDWIDTH_TEST_ERROR_INVALID_SIZE
+SCE_NP_BANDWIDTH_TEST_ERROR_CONTEXT_NOT_AVAILABLE
+SCE_NP_BANDWIDTH_TEST_ERROR_ABORTED
+SCE_NP_BANDWIDTH_TEST_ERROR_TIMEOUT
+SCE_NP_AUTH_SERVER_ERROR_UNKNOWN
+SCE_NP_AUTH_SERVER_ERROR_INVALID_REQUEST
+SCE_NP_AUTH_SERVER_ERROR_UNAUTHORIZED_CLIENT
+SCE_NP_AUTH_SERVER_ERROR_ACCESS_DENIED
+SCE_NP_AUTH_SERVER_ERROR_UNSUPPORTED_RESPONSE_TYPE
+SCE_NP_AUTH_SERVER_ERROR_SERVER_ERROR
+SCE_NP_AUTH_SERVER_ERROR_TEMPORARILY_UNAVAILABLE
+SCE_NP_AUTH_SERVER_ERROR_INVALID_GRANT
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_05
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_08
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_0A
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_10
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_11
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_12
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_13
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_14
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_15
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_16
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_17
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_18
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_19
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_1A
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_1B
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_1C
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_1D
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_80
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_81
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_82
+SCE_NP_AUTH_SERVER_ERROR_OBSOLETE_83
+SCE_NP_ID_MAPPER_ERROR_ABORTED
+SCE_NP_ID_MAPPER_ERROR_ACCOUNT_ID_NOT_FOUND
+SCE_NP_ID_MAPPER_ERROR_ONLINE_ID_NOT_FOUND
+SCE_NP_ID_MAPPER_ERROR_NP_ID_NOT_FOUND
+SCE_NP_ASM_CLIENT_ERROR_ABORTED
+SCE_NP_ASM_CLIENT_ERROR_NP_SERVICE_LAVEL_NOT_MATCH
+SCE_NP_SESSION_SIGNALING_ERROR_NOT_INITIALIZED
+SCE_NP_SESSION_SIGNALING_ERROR_ALREADY_INITIALIZED
+SCE_NP_SESSION_SIGNALING_ERROR_INVALID_ARGUMENT
+SCE_NP_SESSION_SIGNALING_ERROR_OWN_PEER_ADDRESS
+SCE_NP_SESSION_SIGNALING_ERROR_OUT_OF_MEMORY
+SCE_NP_SESSION_SIGNALING_ERROR_TIMEOUT
+SCE_NP_SESSION_SIGNALING_ERROR_CTXID_NOT_AVAILABLE
+SCE_NP_SESSION_SIGNALING_ERROR_CTX_NOT_FOUND
+SCE_NP_SESSION_SIGNALING_ERROR_GRPID_NOT_AVAILABLE
+SCE_NP_SESSION_SIGNALING_ERROR_GRP_NOT_FOUND
+SCE_NP_SESSION_SIGNALING_ERROR_CONNID_NOT_AVAILABLE
+SCE_NP_SESSION_SIGNALING_ERROR_CONN_NOT_FOUND
+SCE_NP_SESSION_SIGNALING_ERROR_PEER_UNREACHABLE
+SCE_NP_SESSION_SIGNALING_ERROR_CONN_IN_PROGRESS
+SCE_NP_SESSION_SIGNALING_ERROR_TERMINATED_BY_PEER
+SCE_NP_SESSION_SIGNALING_ERROR_TERMINATED_BY_MYSELF
+SCE_NP_SESSION_SIGNALING_ERROR_TOO_MANY_CONN
+SCE_NP_SESSION_SIGNALING_ERROR_GROUP_SIGNALING_ALREADY_ACTIVATED
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_ALREADY_INITIALIZED
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_NOT_INITIALIZED
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_OUT_OF_MEMORY
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_ARGUMENT
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_USER_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_ACCOUNT_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_PLATFORM_TYPE
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_ONLINE_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_SESSION_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_BRIDGE_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_BRIDGE_TOKEN
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_ETAG
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_PEER_ADDRESS
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_CHANNEL
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_MESSAGE
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_PUSH_CONTEXT_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_SESSION_CUSTOM_DATA
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_MEMBER_CUSTOM_DATA
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_FIELDS
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_ABORTED
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_UNKNOWN
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INSUFFICIENT_BUFFER
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_ITEM_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_DATA_MALFORMED
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_TOPOLOGY
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_SESSION_NAME
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_DEVICE_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_GROUP_ID
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_VIEW_NAME
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_EVENT
+SCE_NP_SESSION_MANAGEMENT_CLIENT_ERROR_INVALID_MEMBER_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_ALREADY_INITIALIZED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_NOT_INITIALIZED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_OUT_OF_MEMORY
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_ARGUMENT
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_INITIALIZE_PARAMETER
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_CONTEXT_PARAMETER
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_HANDLER
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_CONTEXT_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_OPTION
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_ACCOUNT_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_PLATFORM_TYPE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_BRIDGE_INFO
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_BRIDGE_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_BRIDGE_TOKEN
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_ETAG
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_CHANNEL
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_MESSAGE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_REQUEST
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_REQUEST_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_REQUEST_CALLBACK
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_REQUEST_CALLBACK_ALREADY_REGISTERED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_DATA_VALUE_TYPE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_MEMBER_DATA_VALUE_TYPE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_DATA_VALUE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_MEMBER_DATA_VALUE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_MEMBER_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_ABORTED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_CONTEXT_NOT_STARTED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_CONTEXT_ALREADY_STARTED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_UNKNOWN
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INSUFFICIENT_BUFFER
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_REQUEST_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_SESSION_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_SESSION_ALREADY_EXISTS
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_CONTEXT_SLOT_EXCEEDS_MAX
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_UNEXPECTED_DEACTIVATED_ERRCODE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_CMD_HANDLER_STOPPED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_MEMBER_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_MEMBER_ALREADY_EXISTS
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_STATE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_SESSION_RELEASED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_MEMBER_FULL
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_CONTEXT_TYPE
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_REQUEST_NOT_FINISHED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_QUEUE_EMPTY
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_PRESENCE_OFFLINE_DETECTED
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_PROPERTY
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_PROPERTY_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_UNSUPPORTED_OPERATION
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_GROUP_ID
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_VIEW_NAME
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_BRIDGE_INFO_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_ITEM_NOT_FOUND
+SCE_NP_SESSION_MANAGEMENT_MANAGER_ERROR_INVALID_SESSION_CUSTOM_DATA
+SCE_NP_GAME_INTENT_ERROR_UNKNOWN
+SCE_NP_GAME_INTENT_ERROR_ALREADY_INITIALIZED
+SCE_NP_GAME_INTENT_ERROR_NOT_INITIALIZED
+SCE_NP_GAME_INTENT_ERROR_OUT_OF_MEMORY
+SCE_NP_GAME_INTENT_ERROR_INVALID_ARGUMENT
+SCE_NP_GAME_INTENT_ERROR_INSUFFICIENT_BUFFER
+SCE_NP_GAME_INTENT_ERROR_INTENT_NOT_FOUND
+SCE_NP_GAME_INTENT_ERROR_VALUE_NOT_FOUND
+SCE_NP_PUSH_ERROR_OUT_OF_MEMORY
+SCE_NP_PUSH_ERROR_FIELD_NOT_FOUND
+SCE_NP_PUSH_ERROR_INVALID_SESSION_STATE
+SCE_NP_PUSH_ERROR_ABORTED
+SCE_NP_PUSH_ERROR_SESSION_NOT_ESTABLISHED
+SCE_NP_PUSH_ERROR_QUERY_RESPONSE_CLIENT_ERROR
+SCE_NP_PUSH_ERROR_DISCONNECTED_INVALID_MSG
+SCE_NP_PUSH_ERROR_NETWORK_NOT_AVAILABLE
+SCE_NP_PUSH_ERROR_DISCONNECTED_CLOSED
+SCE_NP_PUSH_ERROR_DISCONNECTED_CLOSED_KEEPALIVE_TIMEOUT
+SCE_NP_PUSH_ERROR_DISCONNECTED_CLOSED_BIND_TIMEOUT
+SCE_NP_PUSH_ERROR_DISCONNECTED_NO_USER
+SCE_NP_PUSH_ERROR_UNKNOWN_REQUEST_STATUS
+SCE_NP_PUSH_ERROR_DISCONNECTED_CLOSED_TOO_MANY_CONNECTIONS
+SCE_NP_PUSH_ERROR_DISCONNECTED_CLOSED_MAINTENANCE_PACKET
+SCE_NP_PUSH2_ERROR_OUT_OF_MEMORY
+SCE_VIDEO_OUT_ERROR_INVALID_VALUE
+SCE_VIDEO_OUT_ERROR_INVALID_ADDRESS
+SCE_VIDEO_OUT_ERROR_INVALID_PIXEL_FORMAT
+SCE_VIDEO_OUT_ERROR_INVALID_PITCH
+SCE_VIDEO_OUT_ERROR_INVALID_RESOLUTION
+SCE_VIDEO_OUT_ERROR_INVALID_FLIP_MODE
+SCE_VIDEO_OUT_ERROR_INVALID_TILING_MODE
+SCE_VIDEO_OUT_ERROR_INVALID_ASPECT_RATIO
+SCE_VIDEO_OUT_ERROR_RESOURCE_BUSY
+SCE_VIDEO_OUT_ERROR_INVALID_INDEX
+SCE_VIDEO_OUT_ERROR_INVALID_HANDLE
+SCE_VIDEO_OUT_ERROR_INVALID_EVENT_QUEUE
+SCE_VIDEO_OUT_ERROR_INVALID_EVENT
+SCE_VIDEO_OUT_ERROR_NO_EMPTY_SLOT
+SCE_VIDEO_OUT_ERROR_SLOT_OCCUPIED
+SCE_VIDEO_OUT_ERROR_FLIP_QUEUE_FULL
+SCE_VIDEO_OUT_ERROR_INVALID_MEMORY
+SCE_VIDEO_OUT_ERROR_MEMORY_NOT_PHYSICALLY_CONTIGUOUS
+SCE_VIDEO_OUT_ERROR_MEMORY_INVALID_ALIGNMENT
+SCE_VIDEO_OUT_ERROR_UNSUPPORTED_OUTPUT_MODE
+SCE_VIDEO_OUT_ERROR_OVERFLOW
+SCE_VIDEO_OUT_ERROR_NO_DEVICE
+SCE_VIDEO_OUT_ERROR_UNAVAILABLE_OUTPUT_MODE
+SCE_VIDEO_OUT_ERROR_INVALID_OPTION
+SCE_VIDEO_OUT_ERROR_PORT_UNSUPPORTED_FUNCTION
+SCE_VIDEO_OUT_ERROR_UNSUPPORTED_OPERATION
+SCE_VIDEO_OUT_ERROR_FATAL
+SCE_VIDEO_OUT_ERROR_UNKNOWN
+SCE_VIDEO_OUT_ERROR_ENOMEM
+SCE_GNM_ERROR_SUBMISSION_FAILED_INVALID_ARGUMENT
+SCE_GNM_ERROR_SUBMISSION_NOT_ENOUGH_RESOURCES
+SCE_GNM_ERROR_SUBMISSION_AND_FLIP_FAILED_INVALID_COMMAND_BUFFER
+SCE_GNM_ERROR_SUBMISSION_AND_FLIP_FAILED_INVALID_QUEUE_FULL
+SCE_GNM_ERROR_SUBMISSION_AND_FLIP_FAILED_REQUEST_FAILED
+SCE_GNM_ERROR_SUBMISSION_FAILED_INTERNAL_ERROR
+SCE_GNM_ERROR_VALIDATION_ERROR
+SCE_GNM_ERROR_VALIDATION_VSHARP
+SCE_GNM_ERROR_VALIDATION_TSHARP
+SCE_GNM_ERROR_VALIDATION_RESOURCE
+SCE_GNM_ERROR_VALIDATION_TABLE_MEMORY
+SCE_GNM_ERROR_VALIDATION_WRITE_EVENT_OP
+SCE_GNM_ERROR_VALIDATION_INDEX_BUFFER
+SCE_GNM_ERROR_VALIDATION_TESS_FACTOR_BUFFER
+SCE_GNM_ERROR_VALIDATION_SCRATCH_RING
+SCE_GNM_ERROR_VALIDATION_PRIMITIVE_TYPE
+SCE_GNM_ERROR_VALIDATION_INDEX_SIZE
+SCE_GNM_ERROR_VALIDATION_INLINE_DRAW_SIZE
+SCE_GNM_ERROR_VALIDATION_NUM_INPUT_PATCHES
+SCE_GNM_ERROR_VALIDATION_GS_MODE
+SCE_GNM_ERROR_VALIDATION_SHADER_ADDRESS
+SCE_GNM_ERROR_VALIDATION_BORDER_COLOR_TABLE
+SCE_GNM_ERROR_VALIDATION_SSHARP
+SCE_GNM_ERROR_VALIDATION_ACTIVE_SHADER_STAGE
+SCE_GNM_ERROR_VALIDATION_DCB
+SCE_GNM_ERROR_VALIDATION_MISMATCH_SHADER_STAGE
+SCE_GNM_ERROR_VALIDATION_MRT_SETUP
+SCE_GNM_ERROR_VALIDATION_BAD_OP_CODE
+SCE_GNM_ERROR_VALIDATION_DEPTH_RT_SETUP
+SCE_GNM_ERROR_VALIDATION_NUM_INSTANCES
+SCE_GNM_ERROR_VALIDATION_SRT
+SCE_GNM_ERROR_VALIDATION_INVALID_ARGUMENT
+SCE_GNM_ERROR_VALIDATION_FAILED_INTERNAL_ERROR
+SCE_GNM_ERROR_VALIDATION_NOT_ENABLED
+SCE_GNM_ERROR_VALIDATION_WARNING
+SCE_GNM_ERROR_VALIDATION_WARNING_RWBUFFER_ROTYPE
+SCE_GNM_ERROR_VALIDATION_WARNING_BLENDING
+SCE_GNM_ERROR_VALIDATION_WARNING_DRAW_CU_MASK
+SCE_GNM_ERROR_VALIDATION_WARNING_MRT_SETUP
+SCE_GNM_ERROR_VALIDATION_WARNING_DEPTH_RT_SETUP
+SCE_GNM_ERROR_VALIDATION_WARNING_PS_AND_MRT_FORMAT
+SCE_GNM_ERROR_CAPTURE_FILE_IO
+SCE_GNM_ERROR_CAPTURE_RAZOR_NOT_LOADED
+SCE_GNM_ERROR_CAPTURE_NOTHING_TO_CAPTURE
+SCE_GNM_ERROR_CAPTURE_FAILED_INTERNAL
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_PIPE_ID
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_QUEUE_ID
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_RING_SIZE
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_RING_BASE_ADDR
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_READ_PTR_ADDR
+SCE_GNM_ERROR_COMPUTEQUEUE_INVALID_PIPE_PRIORITY
+SCE_GNM_ERROR_COMPUTEQUEUE_INTERNAL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INVALID_ARGUMENT
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INVALID_SHADER
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_STALE_HANDLE
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_FULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_NOT_PERMITTED
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_OUTPUT_ARGUMENT_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_OWNER_HANDLE_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_HANDLE_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_TYPE_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_GDS_RESOURCE_TYPE_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_SIZE_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_ADDRESS_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_GDS_OFFSET_INVALID
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_NAME_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_OWNER_NAME_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_FIND_CALLBACK_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_RESOURCE_IS_NOT_SHADER
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_USER_MEMORY_PARAM_IS_NULL
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_USER_MEMORY_PARAM_NOT_ALIGNED
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INVALID_NAME_LENGTH_PARAM
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INVALID_SIZE_PARAM
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INVALID_NUM_RESOURCES_PARAM
+SCE_GNM_ERROR_RESOURCE_REGISTRATION_INTERNAL
+SCE_GNM_ERROR_GET_GPU_INFO_PARAMETER_NULL
+SCE_GNM_ERROR_GET_GPU_INFO_FAILED
+SCE_GNM_ERROR_GET_GPU_INFO_PARAMETER_INVALID
+SCE_GNMX_ERROR_DISPATCH_DRAW_INVALID_ARGUMENTS
+SCE_GNMX_ERROR_DISPATCH_DRAW_OUT_OF_SPACE_FOR_INDEX_DATA
+SCE_GNMX_ERROR_DISPATCH_DRAW_OUT_OF_SPACE_FOR_BLOCK_OFFSET
+SCE_GNMX_ERROR_DISPATCH_DRAW_UNREPRESENTABLE_OFFSET
+SCE_GPU_ADDRESS_ERROR_STATUS_INVALID_ARGUMENT
+SCE_GPU_ADDRESS_ERROR_STATUS_INTERNAL_TILING
+SCE_AUDIO_IN_ERROR_FATAL
+SCE_AUDIO_IN_ERROR_INVALID_HANDLE
+SCE_AUDIO_IN_ERROR_INVALID_SIZE
+SCE_AUDIO_IN_ERROR_INVALID_FREQ
+SCE_AUDIO_IN_ERROR_INVALID_TYPE
+SCE_AUDIO_IN_ERROR_INVALID_POINTER
+SCE_AUDIO_IN_ERROR_INVALID_PARAM
+SCE_AUDIO_IN_ERROR_PORT_FULL
+SCE_AUDIO_IN_ERROR_OUT_OF_MEMORY
+SCE_AUDIO_IN_ERROR_NOT_OPENED
+SCE_AUDIO_IN_ERROR_BUSY
+SCE_AUDIO_IN_ERROR_SYSTEM_MEMORY
+SCE_AUDIO_IN_ERROR_SYSTEM_IPC
+SCE_AUDIO_OUT_ERROR_MASTERING_FATAL
+SCE_AUDIO_OUT_ERROR_MASTERING_INVALID_API_PARAM
+SCE_AUDIO_OUT_ERROR_MASTERING_INVALID_CONFIG
+SCE_AUDIO_OUT_ERROR_MASTERING_NOT_INITIALIZED
+SCE_AUDIO_OUT_ERROR_MASTERING_INVALID_STATES_ID
+SCE_AUDIO_OUT_ERROR_MASTERING_INVALID_FLAGS
+SCE_AUDIO_OUT_ERROR_NOT_OPENED
+SCE_AUDIO_OUT_ERROR_BUSY
+SCE_AUDIO_OUT_ERROR_INVALID_PORT
+SCE_AUDIO_OUT_ERROR_INVALID_POINTER
+SCE_AUDIO_OUT_ERROR_PORT_FULL
+SCE_AUDIO_OUT_ERROR_INVALID_SIZE
+SCE_AUDIO_OUT_ERROR_INVALID_FORMAT
+SCE_AUDIO_OUT_ERROR_INVALID_SAMPLE_FREQ
+SCE_AUDIO_OUT_ERROR_INVALID_VOLUME
+SCE_AUDIO_OUT_ERROR_INVALID_PORT_TYPE
+SCE_AUDIO_OUT_ERROR_INVALID_CONF_TYPE
+SCE_AUDIO_OUT_ERROR_OUT_OF_MEMORY
+SCE_AUDIO_OUT_ERROR_ALREADY_INIT
+SCE_AUDIO_OUT_ERROR_NOT_INIT
+SCE_AUDIO_OUT_ERROR_MEMORY
+SCE_AUDIO_OUT_ERROR_SYSTEM_RESOURCE
+SCE_AUDIO_OUT_ERROR_TRANS_EVENT
+SCE_AUDIO_OUT_ERROR_INVALID_FLAG
+SCE_AUDIO_OUT_ERROR_INVALID_MIXLEVEL
+SCE_AUDIO_OUT_ERROR_INVALID_ARG
+SCE_AUDIO_OUT_ERROR_INVALID_PARAM
+<unknown>
+sceSaveDataSetParam(%s) failed with code 0x%08x (%s)
+ABORT
+sceSaveDataInitialize3 failed with code=%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(61): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(70): 
+ReportError
+sceSysmoduleLoadModule(SCE_SYSMODULE_SAVE_DATA_DIALOG) failed with code=%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(129): 
+sceSaveDataDialogOpen failed with code 0x%08x (%s)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(200): 
+Could not get userid, sce error 0x%08x (%s)
+FAILED REQUIRE(ret != -2137063423)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(317): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(321): 
+Verify(ret != SCE_SAVE_DATA_ERROR_NO_PERMISSION)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(322): 
+Verify(ret != SCE_SAVE_DATA_ERROR_OUT_OF_MEMORY)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(329): 
+Verify(createMode)
+hostSaveDataMount(%s) deadlock fault at %.1f seconds.
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(364): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\sce\SceSaveData.cpp(409): 
+hostSaveDataMount(%s) unhandled result code 0x%08x (%s)
+hostSaveDataMount(%s) waiting a long time for backup to finish.
+SonySaveDataDialogWizard(%s, isSave=%d, isCreate=%d) sceSaveDataDialogInitialize
+(NULL)
+SonySaveDataDialogNoSpace(blockSize=%jd)
+StateSaver
+FAILED REQUIRE(ret == 0)
+StateSaver: ran out of memory for work buffer
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(28): 
+FAILED REQUIRE(!memcmp(sig, s_emu_snapshot_signature, siglen))
+Invalid or incorrect state file. Expected sig=%s but got sig=%s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(70): 
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(83): 
+Verify(ifc.read(tag.data(), taglen))
+EOF reading tagName
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(88): 
+Verify(namelen > 0)
+EOF or zero-byte reading entryName length for tag %s  (namelen=%d)
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(93): 
+Verify(ifc.read(name.data(), namelen))
+EOF reading entryName for tag %s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(98): 
+Verify(ifc.read(&len, sizeof(len)))
+EOF reading entryLen for entry %s/%s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(102): 
+Verify(len < _1mb * 512)
+Invalid entryLen=%jd for entry %s/%s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(107): 
+Verify(ifc.read(destptr, len))
+EOF reading entry data for entry %s/%s, len=%jd
+rb
+Could not open %s for reading
+Could not write the state
+Could not open %s for writing
+ReadSnap: item '%s' expects %jd bytes, state contains %jd bytes
+Snapshot is missing entry '%s'
+.len
+FAILED REQUIRE(!memcmp(ptr, s_emu_snapshot_signature, siglen))
+Invalid or incorrect state file. Expected sig=%s but got sig=%.16s
+E:\Em\PeoplesPackageParty\masticore\libpsemu\stable\src\StateSaver.cpp(380): 
+Snapshot is missing entry '%s' (default assignment used)
+%sDEBUG STOP.
+
+map/set<T> too long
+vector<T> too long
+scePthreadCreate('%s', stacksizeKb=%d, affinity=0x%08jx) failed. sce_error=%08x (%s)
+%s: posix_read(size=%jd) failed. %jd bytes read. Posix Error %d (%s)
+
+%s: posix_write(size=%jd) failed. %jd bytes written. Posix Error %d (%s)
+
+_G
+Lua 5.3
+_VERSION
+assert
+collectgarbage
+dofile
+error
+ipairs
+loadfile
+load
+next
+pairs
+pcall
+print
+rawequal
+rawlen
+rawget
+rawset
+select
+tonumber
+tostring
+type
+xpcall
+assertion failed!
+stop
+restart
+collect
+step
+setpause
+setstepmul
+isrunning
+__metatable
+bt
+=(load)
+too many nested functions
+reader function must return a string
+__pairs
+'tostring' must return a string to 'print'
+table or string expected
+index out of range
+cannot change a protected metatable
+base out of range
+ 
+
+	
+value expected
+function or expression needs too many registers
+control structure too long
+opcodes
+constants
+create
+resume
+running
+status
+wrap
+yield
+isyieldable
+thread expected
+too many arguments to resume
+cannot resume dead coroutine
+too many results to resume
+suspended
+normal
+dead
+debug
+getuservalue
+gethook
+getinfo
+getlocal
+getregistry
+getmetatable
+getupvalue
+upvaluejoin
+upvalueid
+setuservalue
+sethook
+setlocal
+setmetatable
+setupvalue
+traceback
+lua_debug> 
+=(debug command)
+%s
+
+external hook
+call
+line
+count
+tail call
+stack overflow
+flnStu
+>%s
+invalid option
+source
+short_src
+linedefined
+lastlinedefined
+what
+currentline
+nups
+nparams
+isvararg
+name
+namewhat
+istailcall
+activelines
+func
+level out of range
+Lua function expected
+invalid upvalue index
+k
+__mode
+nil or table expected
+_ENV
+'%c'
+'%s'
+and
+break
+do
+else
+elseif
+end
+for
+function
+goto
+if
+in
+local
+nil
+not
+or
+repeat
+return
+then
+until
+while
+//
+...
+==
+>=
+<=
+~=
+<<
+>>
+::
+<eof>
+<number>
+<integer>
+<name>
+<string>
+%s near %s
+lexical element too long
+invalid long string delimiter
+chunk has too many lines
+string
+comment
+unfinished long %s (starting at line %d)
+unfinished string
+invalid escape sequence
+hexadecimal digit expected
+missing '{'
+UTF-8 value too large
+missing '}'
+decimal escape too large
+Ee
+Pp
+malformed number
+NUL
+CON
+Invalid path layout: %s
+Rooted paths without drive specification are not allowed.
+Please explicitly specify the drive letter in the path.
+E:\Em\PeoplesPackageParty\masticore\opensource\icystdlib\pub\src\fs.cpp(209): (assert failed) newsize <= ptrdiff_t(unix_path.length()): 
+invalid string position
+E:\Em\PeoplesPackageParty\masticore\opensource\icystdlib\pub\src\StringUtil.cpp(153): (assert failed) destSize >= 0: Invalid string formatting parameters
+true
+on
+false
+off
+Config error: expected boolean r-value parsing %s=%s
+invalid map/set<T> iterator
+require
+include
+%s(%d): invalid !%s directive, %s is a directory.
+
+rt
+!%s '%s'
+
+%s(%d): %s could not be opened for reading: %s
+
+%s(%d): syntax error parsing: %s
+
+--
+/host
+/host%s
+/host/
+/app0
+/addcont
+/dev/null/
+/dev/null
+/dev/tty/
+/dev/tty
+..
+string too long
