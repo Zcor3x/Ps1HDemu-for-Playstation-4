@@ -37,7 +37,7 @@
 --savestate-dir
 --locale=enUS
 --xobuttonmode=oenter,ocancel
---host-audio
+--host-audio=0,1
 --texreplace
 --git-rev-gamedata
 --region-dir
